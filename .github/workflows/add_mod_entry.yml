@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      THIS_PAYLOAD: ${{ github.event.client_payload.data }}
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
@@ -26,7 +27,6 @@ jobs:
       
       - name: execute py script # run main.py
         env:
-          THIS_PAYLOAD: ${{ github.event.client_payload.data }}
           TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
         run: python add_mod.py
       
