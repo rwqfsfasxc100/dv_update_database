@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      THIS_PAYLOAD: ${{ github.event.client_payload.data }}
+      THIS_PAYLOAD: ${{ github.event.client_payload }}
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner
