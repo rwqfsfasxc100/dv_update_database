@@ -1,4 +1,4 @@
-name: dispatch_release
+name: add_mod_entry
 
 # Controls when the workflow will run
 on:
