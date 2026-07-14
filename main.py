@@ -80,7 +80,7 @@ mod_data_file = open(directory_path + "manifest_path_store.json", "r", encoding=
 mod_data = json.load(mod_data_file)
 
 for mod_id in mod_data:
-    manifestpath = mod_data[mod_id]["manifest_path"]
+    manifestpath = mod_data[mod_id]["manifest_url"]
     print("fetching %s @ %s" % (mod_id,manifestpath))
     response = requests.get(manifestpath)
     if response.status_code == 200:
