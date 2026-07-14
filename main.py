@@ -53,27 +53,128 @@ directory_path = PureWindowsPath(os.path.dirname(os.path.realpath(__file__))).as
 
 topic_path = directory_path + "topic_store/"
 zip_path = directory_path + "zip_store/"
+
+fetcher_store = directory_path + "github_fetcher_store/"
+fetcher_icon_path = fetcher_store + "icons/"
+fetcher_zip_path = fetcher_store + "zips/"
 if not os.path.isdir(topic_path):
     os.mkdir(topic_path)
 if not os.path.isdir(zip_path):
     os.mkdir(zip_path)
+if not os.path.isdir(fetcher_store):
+    os.mkdir(fetcher_store)
+if not os.path.isdir(fetcher_icon_path):
+    os.mkdir(fetcher_icon_path)
+if not os.path.isdir(fetcher_zip_path):
+    os.mkdir(fetcher_zip_path)
 print("dir: " + directory_path)
+
+compiled_topic_file = topic_path + 'compiled_topic_store.json'
+if not os.path.isfile(compiled_topic_file):
+    jds = open(compiled_topic_file, 'w', encoding="utf-8")
+    json.dump(json.loads("{}"), jds, indent="\t")
+
 
 def topic_format(item, current_page):
     topic_filepath = topic_path + 'topic_page_%s.json' % current_page
     details_filepath = "https://raw.githubusercontent.com/%s/refs/heads/%s/MOD_DETAILS.txt"
-    
+    topic_data_file = open(compiled_topic_file, "r", encoding="utf-8")
+    topic_data = json.load(topic_data_file)
     for DATA in item["items"]:
         branch = DATA.get("default_branch")
         pathName = DATA.get("full_name")
         path = "https://raw.githubusercontent.com/%s/refs/heads/%s/MOD_DETAILS.txt" % (pathName,branch)
         
+        owner = DATA.get("owner")
+        avatar_url = owner.get("avatar_url","")
         response = requests.get(path)
         if response.status_code == 200:
-            print("Has MOD_DETAILS file: " + path)
+            details = response.text
+            formatted_details = get_mod_details_custom_icon(details,avatar_url)
             
+            latest_release_path = DATA.get("html_url") + "/releases/latest"
+            rs = requests.get(latest_release_path)
             
-            
+            if rs.status_code == 200:
+                rd = rs.text
+                specificLine = False
+                for ln in str(rd).split("\n"):
+                    line = ln.strip()
+                    if line.startswith("<title>",0,7):
+                        specificLine = True
+                        break
+                
+                release_url = DATA.get("html_url") + "/latest"
+                
+                entry = DATA.get("full_name")
+                release_download = "https://api.github.com/repos/%s/releases" % (entry)
+                
+                fetch_zip = requests.get(release_download)
+                
+                if fetch_zip.status_code == 200:
+                    release_fetch = json.loads(fetch_zip.text)[0]["assets"][0]
+                    
+                    zpfn = release_fetch.get("name","temp.zip")
+                    custom_filename = formatted_details["header_data"].get("MOD_ZIP_NAME","")
+                    if custom_filename:
+                        zpfn = custom_filename
+                    
+                    this_mod_id = formatted_details["header_data"].get("MOD_ID","")
+                    
+                    this_zip_url = release_fetch.get("browser_download_url")
+                    specific_zip_filepath = fetcher_zip_path + this_mod_id + "/"
+                    if not os.path.isdir(specific_zip_filepath):
+                        os.mkdir(specific_zip_filepath)
+                    
+                    download_file(this_zip_url,specific_zip_filepath + zpfn)
+                    
+                    icon_url = formatted_details["header_data"].get("MOD_ICON",avatar_url)
+                    if not icon_url:
+                        icon_url = avatar_url
+                    if this_mod_id:
+                        if not this_mod_id in topic_data:
+                            topic_data[this_mod_id] = {}
+                        
+                        icon_filepath = fetcher_icon_path + this_mod_id + ".png"
+                        
+                        
+                        if icon_url:
+                            download_file(icon_url,icon_filepath)
+                        else:
+                            icon_filepath = ""
+                            print("ERROR: MISSING ICON FOR " + this_mod_id)
+                        
+                        
+                        topic_data[this_mod_id]["formatted"] = formatted_details
+                        if icon_url:
+                            topic_data[this_mod_id]["icon_path"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/" + this_mod_id + ".png"
+                        else:
+                            topic_data[this_mod_id]["icon_path"] = ""
+                        topic_data[this_mod_id]["zip_filename"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/" + this_mod_id + "/" + zpfn
+                    
+                    
+                    
+                    
+                else:
+                    print("MISSING MOD ID: " + path)
+    jgt = open(compiled_topic_file, 'w', encoding="utf-8")
+    json.dump(topic_data, jgt, indent="\t")
+
+def get_mod_details_custom_icon(text,avatar_url):
+    dta = json.loads('{"header_data":{},"readme":""}')
+    description = ""
+    for ln in str(text).split("\n"):
+        line = ln.strip()
+        if line.startswith(";",0,1):
+            line = line[1:]
+            lsplit = line.split("|")
+            if len(lsplit) == 2:
+                dta["header_data"][lsplit[0]] = lsplit[1]
+        else:
+            description = description + line + "\n"
+    dta["readme"] = description
+    return dta
+    
 
 current_page = 1
 data = fetch_topic_page(current_page,access_token)
