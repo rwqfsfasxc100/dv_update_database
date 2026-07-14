@@ -84,7 +84,7 @@ for manifestpath in mod_data:
     if response.status_code == 200:
         needs_update = False
         ver_string_format = "%s.%s.%s"
-        newver_major = 1
+        newver_major = 0
         newver_minor = 0
         newver_bugfix = 0
         curver_major = mod_data[manifestpath]["major"]
