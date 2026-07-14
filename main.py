@@ -121,6 +121,8 @@ for manifestpath in mod_data:
                 needs_update = True
             elif newver_bugfix > curver_bugfix:
                 needs_update = True
+            if needs_update:
+                print("Out of date, fetching new version")
         if needs_update:
             mod_data[manifestpath]["major"] = newver_major
             mod_data[manifestpath]["minor"] = newver_minor
@@ -133,7 +135,7 @@ for manifestpath in mod_data:
             if not github_url.endswith("/releases"):
                 github_url = github_url + "/releases"
             github_url = "https://api.github.com/repos/" + github_url.split("https://github.com/")[1]
-            print("updating %s from %s" % (manifestpath,github_url))
+            print("updating %s [v%s] from %s" % (manifestpath,newver,github_url))
             release_data = fetch_api(github_url,access_token)
             if release_data != None:
                 print("fetched mod info")
