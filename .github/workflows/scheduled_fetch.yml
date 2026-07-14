@@ -33,6 +33,7 @@ jobs:
           git config --global user.name 'rwqfsfasxc100'
           git config --global user.email '123430291+rwqfsfasxc100@users.noreply.github.com'
           git add -A
+          git remote set-url --push origin https://rwqfsfasxc100:$GITHUB_TOKEN@github.com/rwqfsfasxc100/dv_update_database
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
       - name: push changes
