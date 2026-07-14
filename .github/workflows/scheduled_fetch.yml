@@ -2,7 +2,7 @@ name: scheduled_fetch
 
 on:
   schedule:
-    - cron: '12/30 * * * *'
+    - cron: '12 * * * *'
   workflow_dispatch:
 
 jobs:
