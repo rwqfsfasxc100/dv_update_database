@@ -11,7 +11,7 @@ mod_data = json.load(mod_data_file)
 
 
 pld = os.environ["THIS_PAYLOAD"]
+print("Payload: " + str(pld))
 payload = json.loads(pld)
-print("Payload: " + payload)
 
 
