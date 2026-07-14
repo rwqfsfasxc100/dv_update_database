@@ -149,10 +149,10 @@ def topic_format(item, current_page):
                         
                         topic_data[this_mod_id]["formatted"] = formatted_details
                         if icon_url:
-                            topic_data[this_mod_id]["icon_path"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/" + this_mod_id + ".png"
+                            topic_data[this_mod_id]["icon_path"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/" + this_mod_id + ".png"
                         else:
                             topic_data[this_mod_id]["icon_path"] = ""
-                        topic_data[this_mod_id]["zip_filename"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/" + this_mod_id + "/" + zpfn
+                        topic_data[this_mod_id]["zip_filename"] = "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/" + this_mod_id + "/" + zpfn
                     
                     
                     
