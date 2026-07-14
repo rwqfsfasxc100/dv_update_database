@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '12 * * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [fetch_data]
 
 jobs:
   build:
