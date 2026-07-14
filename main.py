@@ -102,30 +102,28 @@ for mod_id in mod_data:
         
         
         
-        if not needs_update:
-            for ln in str(response.text).split("\n"):
-                line = ln.strip()
-                if line.startswith("[",0,1) and line.endswith("]"):
-                    capture_version = line == "[version]"
-                if capture_version:
-                    line_split = line.split("=")
-                    if len(line_split) > 1:
-                        match line_split[0]:
-                            case "version_major":
-                                newver_major = int(line_split[1])
-                            case "version_minor":
-                                newver_minor = int(line_split[1])
-                            case "version_bugfix":
-                                newver_bugfix = int(line_split[1])
-            if newver_major > curver_major:
-                needs_update = True
-            elif newver_minor > curver_minor:
-                needs_update = True
-            elif newver_bugfix > curver_bugfix:
-                needs_update = True
-            if needs_update:
-                print("Out of date, fetching new version")
+        for ln in str(response.text).split("\n"):
+            line = ln.strip()
+            if line.startswith("[",0,1) and line.endswith("]"):
+                capture_version = line == "[version]"
+            if capture_version:
+                line_split = line.split("=")
+                if len(line_split) > 1:
+                    match line_split[0]:
+                        case "version_major":
+                            newver_major = int(line_split[1])
+                        case "version_minor":
+                            newver_minor = int(line_split[1])
+                        case "version_bugfix":
+                            newver_bugfix = int(line_split[1])
+        if newver_major > curver_major:
+            needs_update = True
+        elif newver_minor > curver_minor:
+            needs_update = True
+        elif newver_bugfix > curver_bugfix:
+            needs_update = True
         if needs_update:
+            print("Out of date, fetching new version")
             mod_data[mod_id]["major"] = newver_major
             mod_data[mod_id]["minor"] = newver_minor
             mod_data[mod_id]["bugfix"] = newver_bugfix
