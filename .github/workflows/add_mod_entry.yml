@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event.client_payload.run }}
+#    if: ${{ github.event.client_payload.run }}
     runs-on: ubuntu-latest
     env:
       THIS_PAYLOAD: ${{ github.event.client_payload.data }}
