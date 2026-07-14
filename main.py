@@ -69,7 +69,7 @@ if not os.path.isdir(fetcher_zip_path):
     os.mkdir(fetcher_zip_path)
 print("dir: " + directory_path)
 
-compiled_topic_file = topic_path + 'compiled_topic_store.json'
+compiled_topic_file = fetcher_store + 'compiled_topic_store.json'
 if not os.path.isfile(compiled_topic_file):
     jds = open(compiled_topic_file, 'w', encoding="utf-8")
     json.dump(json.loads("{}"), jds, indent="\t")
