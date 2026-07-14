@@ -79,8 +79,9 @@ while (current_page < page_max):
 mod_data_file = open(directory_path + "manifest_path_store.json", "r", encoding="utf-8")
 mod_data = json.load(mod_data_file)
 
-for manifestpath in mod_data:
-    print("fetching: " + manifestpath)
+for mod_id in mod_data:
+    manifestpath = mod_data[mod_id]["manifest_path"]
+    print("fetching %s @ %s" % (mod_id,manifestpath)
     response = requests.get(manifestpath)
     if response.status_code == 200:
         needs_update = False
@@ -88,11 +89,10 @@ for manifestpath in mod_data:
         newver_major = 0
         newver_minor = 0
         newver_bugfix = 0
-        curver_major = mod_data[manifestpath]["major"]
-        curver_minor = mod_data[manifestpath]["minor"]
-        curver_bugfix = mod_data[manifestpath]["bugfix"]
+        curver_major = mod_data[mod_id]["major"]
+        curver_minor = mod_data[mod_id]["minor"]
+        curver_bugfix = mod_data[mod_id]["bugfix"]
         oldver = ver_string_format % (curver_major,curver_minor,curver_bugfix)
-        mod_id = mod_data[manifestpath]["id"]
         capture_version = False
         
         current_zip_path = zip_path + mod_id + "/"
@@ -124,12 +124,12 @@ for manifestpath in mod_data:
             if needs_update:
                 print("Out of date, fetching new version")
         if needs_update:
-            mod_data[manifestpath]["major"] = newver_major
-            mod_data[manifestpath]["minor"] = newver_minor
-            mod_data[manifestpath]["bugfix"] = newver_bugfix
+            mod_data[mod_id]["major"] = newver_major
+            mod_data[mod_id]["minor"] = newver_minor
+            mod_data[mod_id]["bugfix"] = newver_bugfix
             
             newver = ver_string_format % (newver_major,newver_minor,newver_bugfix)
-            github_url = mod_data[manifestpath]["github_url"]
+            github_url = mod_data[mod_id]["github_url"]
             if github_url.endswith("/"):
                 github_url = github_url[:-1]
             if not github_url.endswith("/releases"):
@@ -154,7 +154,9 @@ for manifestpath in mod_data:
                     this_zip_path = this_zip_path + newver + "/"
                     if not os.path.isdir(this_zip_path):
                         os.mkdir(this_zip_path)
-                    zip_file = this_zip_path + "file.zip"
+                    zipname = download_url.split("/")[-1]
+                    mod_data[mod_id]["file_name"] = zipname
+                    zip_file = this_zip_path + zipname
                     print("downloading mod zip from %s to %s " % (download_url,zip_file))
                     download_file(download_url,zip_file)
             else:
