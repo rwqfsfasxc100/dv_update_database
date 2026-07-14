@@ -60,7 +60,8 @@
 			"header_data": {
 				"MOD_ID": "wt.MoarRadars",
 				"MOD_NAME": "Moar RADARs",
-				"MOD_ZIP_NAME": "MoarRADARs.zip"
+				"MOD_ZIP_NAME": "MoarRADARs.zip",
+				"AUTHOR": "1-WT-1"
 			},
 			"readme": "\n[b]Cutting-Edge Detection Systems Released by Leading Manufacturers[/b]\n[i]From Minding LF, Coherent Light, and Runasimi[/i]\nLeading manufacturers continue to push the boundaries of detection technology with the release of the DSR-100 and the upgraded PR-500D, expanding the arsenal of tools available for space exploration and navigation.\n\n[b][u]Minding LF Unveils the BF-220 Beamformed RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Minding LF introduces the [b]BF-220 Beamformed RADAR[/b], a breakthrough in precision scanning. By focusing its low-frequency radio waves into a narrow beam, the BF-220 enhances the detection of distant objects and hidden structures, offering unparalleled accuracy for forward-facing scans. Whether for exploration or threat detection, the BF-220 is ideal for missions requiring high-speed, targeted analysis.[/i][/color][/indent]\n\n[b][u]Conlido RVM Introduces the DSR-100 Doppler Sweeping RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Conlido RVM enters the market with the [b]DSR-100 Doppler Sweeping RADAR[/b], a reliable all-purpose system designed for general navigation. By integrating Doppler-shift detection into a standard sweeping radar, the DSR-100 offers pilots critical velocity data alongside distance measurements. It serves as an excellent upgrade for independent operators looking for enhanced situational awareness without the cost of specialized military hardware.[/i][/color][/indent]\n\n[b][u]Coherent Light Debuts the PR-500 Phased RADAR Array[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Coherent Light announces the release of the [b]PR-500 Phased RADAR Array[/b], a next-generation system that eliminates the need for mechanical components. The PR-500 uses phase-shifting technology to direct its RADAR beams electronically, providing near-instantaneous 360-degree scanning. This advanced system excels in detecting and tracking objects in dynamic environments, offering unmatched coverage and response times.[/i][/color][/indent]\n\n[b][u]Coherent Light Upgrades to the PR-500D Doppler Phased RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Building on the success of the PR-500, Coherent Light unveils the [b]PR-500D Doppler Phased RADAR[/b]. This advanced model retains the instantaneous scanning capabilities of the original phased array but adds a high-sensitivity detected frequency shift processor. This enhancement allows for real-time tracking of relative velocities, significantly improving threat assessment capabilities in dynamic environments.[/i][/color][/indent]\n\n[b][u]Runasimi Launches the RLS-900 Hybrid RADAR-LIDAR System[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Building on its legacy of high-precision equipment, Runasimi presents the [b]RLS-900 Hybrid RADAR-LIDAR System[/b]. Combining high-resolution LIDAR and low-frequency RADAR, the RLS-900 offers detailed close-range scans while extending detection range through its RADAR capabilities. This hybrid system is perfect for scientific and exploration missions, delivering comprehensive situational awareness in one sophisticated package.[/i][/color][/indent]\n\nThese new systems are now available for immediate deployment, bringing advanced detection technologies to the forefront of space exploration and research.\n\n[u][b]Installation Instructions:[/b][/u]\n[indent]* Navigate to the game's installation directory (the directory containing \"Delta-V.exe\")[/indent]\n[indent]* Create a new directory called \"mods\".[/indent]\n[indent]* Place the \"mod.zip\" (ex: MoarRADARs.zip) in the \"mods\" folder[/indent]\n[indent]* Run the game with the \"--enable-mods\" command-line parameter.[/indent]\n\n[b][u]Compatibility Note:[/u][/b]\n[b]Moar RADARs [/b]mod [u]supports[/u] [b][u]ANY[/u][/b] other mod that doesn't modify[b][u] func connectToShip in LIDAR.gd[/u][/b]\n\n"
 		},
@@ -86,7 +87,8 @@
 			"header_data": {
 				"MOD_ID": "wt.RGBLasers",
 				"MOD_NAME": "RGB Lasers",
-				"MOD_ZIP_NAME": "RGB-Lasers.zip"
+				"MOD_ZIP_NAME": "RGB-Lasers.zip",
+				"AUTHOR": "1-WT-1"
 			},
 			"readme": "\n\nMakes mining lasers color cycle through the RGB spectrum.\nIncludes Caramelldansen sound replacement for the firing sound.\n\n"
 		},
@@ -98,7 +100,8 @@
 			"header_data": {
 				"MOD_ID": "wt.toggle_drone",
 				"MOD_NAME": "Toggle Drone",
-				"MOD_ZIP_NAME": "ToggleDrone.zip"
+				"MOD_ZIP_NAME": "ToggleDrone.zip",
+				"AUTHOR": "1-WT-1"
 			},
 			"readme": "\n\nA mod that introduces the [b]Adaptive Nanodrone System[/b], allowing to switch between stopping objects (Tug) and retrieving them (Haul) on the fly.\n\n[u][b]Features:[/b][/u]\n[indent]* [b]Dynamic Mode Switching[/b]: Toggle between Haul and Tug using your slot activation key.[/indent]\n[indent]* [b]Default Mode Tuning[/b]: Set the preferred starting mode for each ship slot via the Tuning menu.[/indent]\n\n[u][b]Configuration:[/b][/u]\n[indent]* [b]Cycle Order[/b]:[/indent]\n[indent][indent]- [b]Fixed[/b]: Always cycles Haul -> Tug -> Off.[/indent][/indent]\n[indent][indent]- [b]Adaptive[/b]: Cycles Default Mode -> Other Mode -> Off.[/indent][/indent]\n\n"
 		},
@@ -125,7 +128,8 @@
 				"MOD_ID": "wt.ShipTransponder",
 				"MOD_NAME": "Ship Transponder",
 				"MOD_ICON": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/icon.png",
-				"MOD_ZIP_NAME": "ShipTransponder.zip"
+				"MOD_ZIP_NAME": "ShipTransponder.zip",
+				"AUTHOR": "1-WT-1"
 			},
 			"readme": "\nAdds the ship's variant name or model to the OMS target list.\n\n[u][b]Configuration:[/b][/u]\n\n[b]Display Preference[/b]\n[indent]* Sets whether to show the [i]Name[/i] or [i]Model[/i] first. The mod automatically falls back to the other option if the preferred one is not available.[/indent]\n\n[b]Show Non-Hailable[/b]\n[indent]* If enabled, the mod will attempt to display names for non-hailable targets, such as derelicts.[/indent]\n\n[b]Show Untranslated Keys[/b]\n[indent]* When enabled, displays the raw translation key instead of 'UNKNOWN' if translation is not found.[/indent]\n\n[b]Dynamic Hybrid Naming[/b]\n[indent]* If enabled, the Hybrid ship's identity will change frequently.[/indent]\n\n"
 		},
@@ -165,7 +169,8 @@
 			"header_data": {
 				"MOD_ID": "wt.SandevistanAdrenaline",
 				"MOD_NAME": "Sandevistan Adrenaline",
-				"MOD_ZIP_NAME": "SandevistanAdrenaline.zip"
+				"MOD_ZIP_NAME": "SandevistanAdrenaline.zip",
+				"AUTHOR": "1-WT-1"
 			},
 			"readme": "\n[b]Sandevistan Adrenaline[/b]\n\nBoosts player ship thrusters during adrenal slowdown, allowing normalish movement while time is slowed.\n\n"
 		},
