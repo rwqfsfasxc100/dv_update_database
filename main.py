@@ -80,6 +80,7 @@ mod_data_file = open(directory_path + "manifest_path_store.json", "r", encoding=
 mod_data = json.load(mod_data_file)
 
 for manifestpath in mod_data:
+    print("fetching: " + manifestpath)
     response = requests.get(manifestpath)
     if response.status_code == 200:
         needs_update = False
@@ -96,6 +97,7 @@ for manifestpath in mod_data:
         
         current_zip_path = zip_path + mod_id + "/"
         if not os.path.isdir(current_zip_path):
+            print("mod zip store doesn't exist, ensuring update: " + current_zip_path)
             needs_update = True
         
         if not needs_update:
@@ -113,12 +115,12 @@ for manifestpath in mod_data:
                                 newver_minor = int(line_split[1])
                             case "version_bugfix":
                                 newver_bugfix = int(line_split[1])
-        if newver_major > curver_major:
-            needs_update = True
-        elif newver_minor > curver_minor:
-            needs_update = True
-        elif newver_bugfix > curver_bugfix:
-            needs_update = True
+            if newver_major > curver_major:
+                needs_update = True
+            elif newver_minor > curver_minor:
+                needs_update = True
+            elif newver_bugfix > curver_bugfix:
+                needs_update = True
         if needs_update:
             mod_data[manifestpath]["major"] = newver_major
             mod_data[manifestpath]["minor"] = newver_minor
@@ -131,8 +133,10 @@ for manifestpath in mod_data:
             if not github_url.endswith("/releases"):
                 github_url = github_url + "/releases"
             github_url = "https://api.github.com/repos/" + github_url.split("https://github.com/")[1]
+            print("updating %s from %s" % (manifestpath,github_url))
             release_data = fetch_api(github_url,access_token)
-            if release_data:
+            if release_data != None:
+                print("fetched mod info")
                 download_url = ""
                 for n in release_data:
                     if checkIfAcceptable(n):
@@ -149,6 +153,11 @@ for manifestpath in mod_data:
                     if not os.path.isdir(this_zip_path):
                         os.mkdir(this_zip_path)
                     zip_file = this_zip_path + "file.zip"
+                    print("downloading mod zip from %s to %s " % (download_url,zip_file))
                     download_file(download_url,zip_file)
+            else:
+                print("failed to fetch mod info")
+    else:
+        print("failed to fetch " + manifestpath)
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
 json.dump(mod_data, mdrf, indent="\t")
