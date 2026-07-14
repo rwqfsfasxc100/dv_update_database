@@ -1,9 +1,9 @@
-name: add_entry
+name: add_mod_entry
 
 # Controls when the workflow will run
 on:
   repository_dispatch:
-    types: [add_entry]
+    types: [add_mod_entry]
 
 jobs:
   build:
@@ -26,7 +26,7 @@ jobs:
       
       - name: execute py script
         env:
-          THIS_PAYLOAD: $github.event.client_payload.data
+          THIS_PAYLOAD: ${{ github.event.client_payload.data }}
           TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
         run: python add_mod.py
       
