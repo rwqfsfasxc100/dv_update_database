@@ -87,6 +87,7 @@ def topic_format(item, current_page):
         
         owner = DATA.get("owner")
         avatar_url = owner.get("avatar_url","")
+        username = owner.get("login","")
         response = requests.get(path)
         if response.status_code == 200:
             details = response.text
@@ -120,7 +121,8 @@ def topic_format(item, current_page):
                         zpfn = custom_filename
                     
                     this_mod_id = formatted_details["header_data"].get("MOD_ID","")
-                    
+                    this_username = formatted_details["header_data"].get("AUTHOR",username)
+                    formatted_details["header_data"]["AUTHOR"] = this_username
                     this_zip_url = release_fetch.get("browser_download_url")
                     specific_zip_filepath = fetcher_zip_path + this_mod_id + "/"
                     if not os.path.isdir(specific_zip_filepath):
