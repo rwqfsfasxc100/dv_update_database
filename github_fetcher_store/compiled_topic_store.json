@@ -10,8 +10,8 @@
 			},
 			"readme": "\n[b]HevLib[/b]\n\nLibrary mod used by many mods. If you're seeing this in-game, something probably went wrong :)\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.LIBRARY.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.LIBRARY/HevLib.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.LIBRARY.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.LIBRARY/HevLib.zip"
 	},
 	"hev.DerelictDelights": {
 		"formatted": {
@@ -24,8 +24,8 @@
 			},
 			"readme": "\n[center][b]Abandoned Technologies[/b][/center]\n\nA content mod for [i]\u2206V: Rings of Saturn[/i]\n\n[center][u]Features[/u][/center]\n\n[indent]\n* NPC miners now can utilize all TNTRL variants (except the K44), Cothon variants, Eagle variants, AT-K225 variants (except modified variant), OCP-209, and the Kitsune.\n\n* New ship configs for the dealership, NPC, and derelict ships.\n\n* Added a new container variant: the THI Interlunar Container, rogue form can be found randomly in the rings and be sold by pirates too.\n\n* Experimental Interplanetary containers can be found randomly in the rings, which may contain some loot for capturing them.\n\n* Several variants of the NT Companions, with the mike replaced with other tools, to swapping out the grinders, and even adding in an MPU\n\n* More dialogue options for random crew interactions.\n\n* The Ganymedeans have started to take use of the Eagle Prospectors they've been stockpiling, and using them with the more powerful equipment they have taken from piracy.\n\n* The Ganymedeans now have a chance to sell a ship other than the default 3 (K37, Eagle Prospector, Cothon-212). As a result to the increase in ship opportunities, the weight to be offered an ore container has been increased sevenfold, and the weights for the vanilla 3 ship offers have been increased fourfold each, resulting in a 50.6/49.4 container-to-ship offer ratio.\n\n* You can more rarely find monocargo containers filled with ore, being a much higher risk-reward with higher highs and lower lows. Pirates also occasionally sell these.\n\n* Vilcy utilize their contracts with Obonto Habitats to put their point defence turrets on Titans, and use them in extreme cases of caution.\n\n* You can now ask a container to supply a new one nearby, at a cost of course.\n\n* Empty, inert containers can be found in the rings.\n\n* You can find a new Habitat, SRA-08, under construction in the rings.\n\n* Added a new crew agenda: the Historian\n\n* Questline with the historian unlocks the interplanetary line of cargo container\n\n* Fully configurable from a config with mod menu\n\n[/indent]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.DerelictDelights.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.DerelictDelights/AbandonedTechnologies.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.DerelictDelights.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.DerelictDelights/AbandonedTechnologies.zip"
 	},
 	"hev.IndustriesOfEnceladus": {
 		"formatted": {
@@ -38,8 +38,8 @@
 			},
 			"readme": "\n[center][b]Industries Of Enceladus Rewrite[/b][/center]\n\nA large content mod for [i]\u0394V: Rings of Saturn[/i]\n\n[center][u]Additions:[/u][/center]\n\n[b]18 New Ships:[/b]\n[indent]* Tsukuyomi-Class Frigate (Decommissioned)\n* OCP-214-DD \"Deep Dish\"\n* OCP-207-SNAP \"Piranha\"\n* SSE Cothon-2200-XL\n* MAD-CERF (Civilian Refit)\n* UMC Oberon MLP-60\n* KX37 TNTRL \"RAM\"\n* Wasp-class Scout (Decommissioned)\n* Pigeon Prospector\n* Antonoff-Titan K225-SH\n* SSE OK720 TNTRL\n* Y-ME Fission Retrofit\n* OCP-209 Salvaged Hull\n* CK-65\n* CK-69\n* OCP-213 Twin\n* OCK Peeper TNTRL\n* MAD-CERF (Inverted Civilian Refit)[/indent]\n\n[b]9 New Hardpoint Equipment Items[/b]\n[indent]* RA DMW Cannon\n* RA DMW Cannon Turret\n* NDCL-80 Point Defence Laser Turret\n* Rusatom-Antonoff ORD\n* Runasimi KRB-500\n* TR-60 Extended Manipulator\n* OT Hard-Stop Tug Drones\n* THI Harvester-class Haul Drones\n* THI Dyna-Cargo Container[/indent]\n\n[b]2 New Mineral Processing Units[/b]\n[indent]* Rusatom-Antonoff MPU Mk2\n* THI Bulker MPU[/indent]\n\n[b]11 New Thrusters[/b]\nReaction Control System:\n[indent]* RMS Pin-C50 thruster\n* ERS-BlasTR 7200 thruster\n* ND-PNTRm thruster[/indent]\n\nMain Propulsion:\n[indent]* RA-TNTRL-R44 quad engine\n* RA-K69V quad engine\n* ND PMS engine\n* SSE NANI Torch Refit\n* MA-NTR600-II dual engine\n* RMS Pin-M200 engine\n* NDDFD engine\n* ND ZURBIN engine[/indent]\n\n[b]1 New Autopilot[/b]\n[indent]* MA-337-MAX Autopilot[/indent]\n\n[b]10 New Power Systems[/b]\nMPDGs:\n[indent]* OPG-14 StatPlasma\n* MPI City-class MPDG[/indent]\n\nSMESes:\n[indent]* OPS-10 Capacitor Bank[/indent]\n\nUltracapacitors:\n[indent]* Light Ultracapacitor\n* ND-iSMB\n* ND-iSMB Dual Coupling[/indent]\n\nReactor Cores:\n[indent]* 1x SO6 fuel rod[/indent]\n\nTurbines:\n[indent]* Thermocouple Array\n* Laminar Turbine\n* Dual Laminar Turbine[/indent]\n\n[b]2 Propellant Tanks[/b]\n[indent]* 2x Freighter propellant tank array\n* Frigate propellant tank array[/indent]\n\n[b]2 Mass Driver Ammunition Magazines[/b]\n[indent]* Projectile clip\n* Shipyard-class projectile magazine[/indent]\n\n[b]1 Nanodrone Component Storage[/b]\n[indent]* Shipyard-class nanodrone storage[/indent]\n\n[b]10 Cargo Bay Accessories (New Equipment Type!)[/b]\nPreprocessors:\n[indent]* Rasamama RP-25\n* Nakamura Big MT\n* Rusatom-Antonoff MPP-N1\n* Rusatom Chunk Cutter\n* MAD Heating Coils\n* MS Frakker[/indent]\n\nStorage Units:\n[indent]* Conlido Internal Storage Rack\n* THI Mineral Tank Module[/indent]\n\nFabrication Units:\n[indent]* SSE Voyager Fabricator\n* RMS-PAL Fabricator[/indent]\n\n[b]7 New Mineral Hold Kits (New Equipment Type!)[/b]\nStorage Units:\n[indent]* SSE Saddlebags\n* E-Prime Hold Rejoin\n* Conlido freightReady Hoppers[/indent]\n\nVariable Geometry Locking Bolts:\n[indent]* Locking Bolts[/indent]\n\nDivided to Dynamic Conversion Kits:\n[indent]* Conlido aMorphIV\n* THI MD-5\n* NDSBH[/indent]\n\n[b]17 Consumable Vats (New Equipment Type!)[/b]\nAmmunition Storages:\n[indent]* MPI Mounted Ammunition Canister\n* ND Hollowed Hull Ammunition Magazine\n* Antonoff Ammunition Expansion Kit\n* Antonoff 2x Ammunition Expansion Kit\n* Obonto Projectile Extendo+[/indent]\n\nNanodrone Component Storages:\n[indent]* Runasimi Drone Component Vat\n* Runasimi Hull-Fitted Nanodrone Locker\n* Antonoff Nano Storage Expansion\n* Antonoff Dual Nano Storage Expansion\n* Obonto Liquid Nanobot Hold[/indent]\n\nPropellant Storages:\n[indent]* Propellant Can Mk. I\n* Propellant Can Mk. II\n* Reaction Mass Tank Expander\n* 2x Reaction Mass Tank Expander\n* 3x Reaction Mass Tank Expander[/indent]\n\nConsumable Delivery Speed Boosters:\n[indent]* Tetsuo SCARLETTE Delivery Driver\n* Tetsuo RamDrive Consumable Delivery Efficiency Module[/indent]\n\n[b]6 Habitat Kits (New Equipment Type!)[/b]\n[indent]* Conlido bunkX1\n* Conlido bunkX2\n* Runasimi Habitation Capsules\n* Conlido mgHome Kit\n* Antonoff KMX Upfit\n* OCM-36 Upfit[/indent]\n\n\n[center][u]Changes:[/u][/center]\n\n[b]Ship Changes[/b]\n[indent]* OCP-based ships now have 4 variated hardpoints to make them more useful\n* Added new slot types: turrets, large drives[/indent]\n\n[b]New Derelicts and NPCs[/b]\n[indent]* NPCs for all ships except the Tsukuyomi\n* Derelicts for all ships variants with various chances based on their vanilla counterparts (if applicable)\n* Can also be purchased from the Pirates[/indent]\n\n[b]Added Ship Parameter Stats[/b]\n[indent]* Crew quality and hold capacity displayed at Enceladus\n* Hold fill percentage shown on various HUDs[/indent]\n\n\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.IndustriesOfEnceladus.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.IndustriesOfEnceladus/IndustriesOfEnceladusRewrite.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.IndustriesOfEnceladus.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.IndustriesOfEnceladus/IndustriesOfEnceladusRewrite.zip"
 	},
 	"hev.VelocityPlus": {
 		"formatted": {
@@ -52,8 +52,8 @@
 			},
 			"readme": "\n[center][b]Velocity Plus[/b][/center]\n\nA large quality of life mod for [i]\u2206V: Rings of Saturn[/i]\n\nAll changes are toggleable and/or tuneable in the mod menu.\n\n[center][u]Current Changes:[/u][/center]\n\n* [b]Show mineral market worth[/b] - displays the total value of your ore in the mineral market.\n\n* [b]Add empty cradle equipment[/b] - Adds empty cradles to side hardpoints.\n\n* [b]MVFS shader style[/b] - Allows the removal or swapping out of the shader used in the Minding Virtual Flight Service.\n\n* [b]Hide portraits[/b] - Allows the crew portraits to be hidden wherever they may be visible outside of the crew menu.\n\n* [b]Fix Voyager RSLS MPU in the OCP-209[/b] - Flips the Voyager MPU in the OCP-209 to make it easier to fill.\n\n* [b]Remove 200 m/s velocity limit[/b] - Removes the velocity limits set by the emergency autopilot.\n\n* [b]Allow travel outside of the ring area[/b] - Lets you exit the normal play area (< 0km and > 3,006km depths).\n\n* [b]Variate broadcasted location timers[/b] - Variates the times provided by other crews and personnel to make them feel more natural to being taken from their astrogation computer. Broadcasts include: locations provided by crew, locations provided by miner crews, SRO broadcasts, pirate container and ship locations.\n\n* [b]Fix gimballed and turreted weapons in place[/b] - Prevents any equipment that can rotate from targeting, locking them to their 0 degree angle.\n\n* [b]Hide undamaged equipment from repairs[/b] - Repair menu will only display equipment below 100%.\n\n* [b]Add tooltips to Enceladus menus[/b] - Adds more tooltips to explain why you can or cannot do something.\n\n* [b]Enable achievements[/b] - allows achievements and leadearboards to be earned with mods enabled.\n\n* [b]Increase crew marker limits[/b] - Increases the number of tracked ores and transponders your crew can manage at once.\n\n* [b]Manipulator arms lock on AP target[/b] - Having an object selected with the autopilot will have the AR-1500M target that above anything else.\n\n* [b]Display negative depth[/b] - The HUD now displays distance from the rings as negative depth rather than blanking out.\n\n* [b]Display dive time[/b] - Shows total dive time in the mechanic tab next to the game's clock.\n\n* [b]Show equipment reliability[/b] - Displays equipment reliability information in the User Manual tab.\n\n* [b]Toggle HUD & MPU[/b] - Adds keybinds to toggle the HUD's display or toggle the MPU's power.\n\n* [b]Pilots reduce astrogation calculation time[/b] - Having a pilot onboard will help reduce the time it takes to calculate an astrogation jump.\n\n* [b]Save stats[/b] - Display the stats of a save, including current money & insurance, and playtime.\n\n* [b]Companion return behaviour[/b] - allow you to choose the default behaviour of companions when they run low on propellant, as well as extend the number of hail options once that happens.\n\n* [b]Disable pilot's automatic adrenaline[/b] - prevent the pilot from activating adrenaline on a dive.\n\n* [b]Auto Repair[/b] - system to calculate and perform the best repair/replace operations, based on multiple selected criteria.\n\n* [b]Transactions[/b] - shows the net transaction amount of all direct bank transactions, alongside a breakdown of a total of all payments to you and purchases you've made.\n\n* [b]Microwaves melt ore[/b] - any microwave system can melt down the water content of ore chunks for a lighter load and a quicker process.\n\n* [b]Toggle ship systems at Enceladus[/b] - allows you to choose what systems are enabled or disabled at the start of a dive within the tuning menu, with additional options to remember toggled systems from the previous dive.\n\n* [b]Maximum astrogator tracking time[/b] - allows you to modify the maximum amount of time your astrogator is able to keep track of POIs.\n\n* [b]Hide crew suits[/b] - allows you to hide the crew's suits whenever visible\n\n* [b]Override turret auto-fire behaviour[/b] - allows you to choose the targeting and auto-fire behaviour of turret-like equipment\n\n* [b]Disable SANBUS on maintenance drones[/b] - allows maintenance drones to ignore other targeting systems\n\n* [b]Temperature-based thrust modifier[/b] - allows for thrusters to have their thrust change based on the current reactor temperature\n\n* [b]Natural time skip[/b] - When opening a save, the time since the save was last opened will be added to the game time, simulating a natural passage of time\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.VelocityPlus.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.VelocityPlus/VelocityPlus.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.VelocityPlus.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.VelocityPlus/VelocityPlus.zip"
 	},
 	"wt.MoarRadars": {
 		"formatted": {
@@ -65,8 +65,8 @@
 			},
 			"readme": "\n[b]Cutting-Edge Detection Systems Released by Leading Manufacturers[/b]\n[i]From Minding LF, Coherent Light, and Runasimi[/i]\nLeading manufacturers continue to push the boundaries of detection technology with the release of the DSR-100 and the upgraded PR-500D, expanding the arsenal of tools available for space exploration and navigation.\n\n[b][u]Minding LF Unveils the BF-220 Beamformed RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Minding LF introduces the [b]BF-220 Beamformed RADAR[/b], a breakthrough in precision scanning. By focusing its low-frequency radio waves into a narrow beam, the BF-220 enhances the detection of distant objects and hidden structures, offering unparalleled accuracy for forward-facing scans. Whether for exploration or threat detection, the BF-220 is ideal for missions requiring high-speed, targeted analysis.[/i][/color][/indent]\n\n[b][u]Conlido RVM Introduces the DSR-100 Doppler Sweeping RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Conlido RVM enters the market with the [b]DSR-100 Doppler Sweeping RADAR[/b], a reliable all-purpose system designed for general navigation. By integrating Doppler-shift detection into a standard sweeping radar, the DSR-100 offers pilots critical velocity data alongside distance measurements. It serves as an excellent upgrade for independent operators looking for enhanced situational awareness without the cost of specialized military hardware.[/i][/color][/indent]\n\n[b][u]Coherent Light Debuts the PR-500 Phased RADAR Array[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Coherent Light announces the release of the [b]PR-500 Phased RADAR Array[/b], a next-generation system that eliminates the need for mechanical components. The PR-500 uses phase-shifting technology to direct its RADAR beams electronically, providing near-instantaneous 360-degree scanning. This advanced system excels in detecting and tracking objects in dynamic environments, offering unmatched coverage and response times.[/i][/color][/indent]\n\n[b][u]Coherent Light Upgrades to the PR-500D Doppler Phased RADAR[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Building on the success of the PR-500, Coherent Light unveils the [b]PR-500D Doppler Phased RADAR[/b]. This advanced model retains the instantaneous scanning capabilities of the original phased array but adds a high-sensitivity detected frequency shift processor. This enhancement allows for real-time tracking of relative velocities, significantly improving threat assessment capabilities in dynamic environments.[/i][/color][/indent]\n\n[b][u]Runasimi Launches the RLS-900 Hybrid RADAR-LIDAR System[/u][/b]\n[indent][color=#e67e22][b]\u201c[/b][/color] [color=#a0a0a0][i]Building on its legacy of high-precision equipment, Runasimi presents the [b]RLS-900 Hybrid RADAR-LIDAR System[/b]. Combining high-resolution LIDAR and low-frequency RADAR, the RLS-900 offers detailed close-range scans while extending detection range through its RADAR capabilities. This hybrid system is perfect for scientific and exploration missions, delivering comprehensive situational awareness in one sophisticated package.[/i][/color][/indent]\n\nThese new systems are now available for immediate deployment, bringing advanced detection technologies to the forefront of space exploration and research.\n\n[u][b]Installation Instructions:[/b][/u]\n[indent]* Navigate to the game's installation directory (the directory containing \"Delta-V.exe\")[/indent]\n[indent]* Create a new directory called \"mods\".[/indent]\n[indent]* Place the \"mod.zip\" (ex: MoarRADARs.zip) in the \"mods\" folder[/indent]\n[indent]* Run the game with the \"--enable-mods\" command-line parameter.[/indent]\n\n[b][u]Compatibility Note:[/u][/b]\n[b]Moar RADARs [/b]mod [u]supports[/u] [b][u]ANY[/u][/b] other mod that doesn't modify[b][u] func connectToShip in LIDAR.gd[/u][/b]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.MoarRadars.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.MoarRadars/MoarRADARs.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.MoarRadars.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.MoarRadars/MoarRADARs.zip"
 	},
 	"jcaleb.AftermarketHuds": {
 		"formatted": {
@@ -79,8 +79,8 @@
 			},
 			"readme": "\n[center][b]Ganymede Runners' Aftermarket Huds[/b][/center]\n\nAdds more huds, that's about it really.\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/jcaleb.AftermarketHuds.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/jcaleb.AftermarketHuds/AftermarketHuds.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/jcaleb.AftermarketHuds.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/jcaleb.AftermarketHuds/AftermarketHuds.zip"
 	},
 	"wt.RGBLasers": {
 		"formatted": {
@@ -92,8 +92,8 @@
 			},
 			"readme": "\n\nMakes mining lasers color cycle through the RGB spectrum.\nIncludes Caramelldansen sound replacement for the firing sound.\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.RGBLasers.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.RGBLasers/RGB-Lasers.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.RGBLasers.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.RGBLasers/RGB-Lasers.zip"
 	},
 	"wt.toggle_drone": {
 		"formatted": {
@@ -105,8 +105,8 @@
 			},
 			"readme": "\n\nA mod that introduces the [b]Adaptive Nanodrone System[/b], allowing to switch between stopping objects (Tug) and retrieving them (Haul) on the fly.\n\n[u][b]Features:[/b][/u]\n[indent]* [b]Dynamic Mode Switching[/b]: Toggle between Haul and Tug using your slot activation key.[/indent]\n[indent]* [b]Default Mode Tuning[/b]: Set the preferred starting mode for each ship slot via the Tuning menu.[/indent]\n\n[u][b]Configuration:[/b][/u]\n[indent]* [b]Cycle Order[/b]:[/indent]\n[indent][indent]- [b]Fixed[/b]: Always cycles Haul -> Tug -> Off.[/indent][/indent]\n[indent][indent]- [b]Adaptive[/b]: Cycles Default Mode -> Other Mode -> Off.[/indent][/indent]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.toggle_drone.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.toggle_drone/ToggleDrone.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.toggle_drone.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.toggle_drone/ToggleDrone.zip"
 	},
 	"hev.ModMenu2": {
 		"formatted": {
@@ -119,8 +119,8 @@
 			},
 			"readme": "\n[b]Mod Menu 2[/b]\n\nModern mod menu for Delta-V. If you're seeing this in-game, something probably went wrong :)\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.ModMenu2.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.ModMenu2/ModMenu2.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.ModMenu2.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.ModMenu2/ModMenu2.zip"
 	},
 	"wt.ShipTransponder": {
 		"formatted": {
@@ -133,8 +133,8 @@
 			},
 			"readme": "\nAdds the ship's variant name or model to the OMS target list.\n\n[u][b]Configuration:[/b][/u]\n\n[b]Display Preference[/b]\n[indent]* Sets whether to show the [i]Name[/i] or [i]Model[/i] first. The mod automatically falls back to the other option if the preferred one is not available.[/indent]\n\n[b]Show Non-Hailable[/b]\n[indent]* If enabled, the mod will attempt to display names for non-hailable targets, such as derelicts.[/indent]\n\n[b]Show Untranslated Keys[/b]\n[indent]* When enabled, displays the raw translation key instead of 'UNKNOWN' if translation is not found.[/indent]\n\n[b]Dynamic Hybrid Naming[/b]\n[indent]* If enabled, the Hybrid ship's identity will change frequently.[/indent]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.ShipTransponder.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.ShipTransponder/ShipTransponder.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.ShipTransponder.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.ShipTransponder/ShipTransponder.zip"
 	},
 	"wt.MoveXenonSlider": {
 		"formatted": {
@@ -147,8 +147,8 @@
 			},
 			"readme": "\n[center][b]Move Xenon Slider[/b][/center]\n\nMoves the Xenon usage slider from the Tuning screen to the Dive Selection screen.\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.MoveXenonSlider.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.MoveXenonSlider/MoveXenonSlider.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.MoveXenonSlider.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.MoveXenonSlider/MoveXenonSlider.zip"
 	},
 	"hev.MoreMinerals": {
 		"formatted": {
@@ -161,8 +161,8 @@
 			},
 			"readme": "\n[center][b]Hev's More Minerals[/b][/center]\n\n[center][u]Features:[/u][/center]\n\n[b]New Minerals[/b]\n[indent]- 22 new mineral types!\n\n- 20 new Obonto Trades![/indent]\n\n- Mass Geologist filter toggles\n[indent]- Press the name of the equipment to turn all toggles on or off in one click.[/indent]\n\n- Multiple minerals per chunk!\n[indent]- Enabled in HevLib rather than through this mod.\n- Every mineral chunk has a chance to contain more than one type of mineral.\n- Less pure mineral chunks will tend to contain more of the other minerals.[/indent]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.MoreMinerals.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.MoreMinerals/Hevs-More-Minerals.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.MoreMinerals.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.MoreMinerals/Hevs-More-Minerals.zip"
 	},
 	"wt.SandevistanAdrenaline": {
 		"formatted": {
@@ -174,8 +174,8 @@
 			},
 			"readme": "\n[b]Sandevistan Adrenaline[/b]\n\nBoosts player ship thrusters during adrenal slowdown, allowing normalish movement while time is slowed.\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/wt.SandevistanAdrenaline.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/wt.SandevistanAdrenaline/SandevistanAdrenaline.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.SandevistanAdrenaline.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.SandevistanAdrenaline/SandevistanAdrenaline.zip"
 	},
 	"hev.FoxyJumpscare": {
 		"formatted": {
@@ -187,8 +187,8 @@
 			},
 			"readme": "\n[center][b]1 in 10,000 Chance Withered Foxy Jumpscare Every Second[/b][/center]\n\nAdds a small chance for a jumpscare to happen at any point in the game.\nFully configurable with weights and delays in the mod menu!\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.FoxyJumpscare.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.FoxyJumpscare/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.FoxyJumpscare.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.FoxyJumpscare/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip"
 	},
 	"hev.FullMineralNames": {
 		"formatted": {
@@ -201,8 +201,8 @@
 			},
 			"readme": "\n[center][b]Full Mineral Names[/b][/center]\n\nConverts all instances of a mineral's symbol into their full mineral name.\n\nUsed in places like the mineral market, cargo bay and processed mineral displays, and Geologist identification markers.\n\nAlso supports minerals added by: [i]Hev's More Minerals[/i]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.FullMineralNames.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.FullMineralNames/FullMineralNames.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.FullMineralNames.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.FullMineralNames/FullMineralNames.zip"
 	},
 	"hev.LIBRARY.font_pack_1": {
 		"formatted": {
@@ -213,7 +213,7 @@
 			},
 			"readme": "\n[center][b]HevLib Language Font Pack 1[/b][/center]\n\nLibrary extension for HevLib that provides access to a majority of CKJ (Chinese, Korean, Japanese) characters.\n\n[b]Recommended if you are having issues with some characters not appearing correctly in some menus[/b]\n\n"
 		},
-		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/icons/hev.LIBRARY.font_pack_1.png",
-		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/zips/hev.LIBRARY.font_pack_1/HevLib.Language.Font.Pack.1.zip"
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.LIBRARY.font_pack_1.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.LIBRARY.font_pack_1/HevLib.Language.Font.Pack.1.zip"
 	}
 }
