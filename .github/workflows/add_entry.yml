@@ -26,7 +26,7 @@ jobs:
       
       - name: execute py script
         env:
-          THIS_PAYLOAD: ${{ github.event.client_payload }}
+          THIS_PAYLOAD: ${{ github.event.client_payload.data }}
           TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
         run: python add_mod.py
       
