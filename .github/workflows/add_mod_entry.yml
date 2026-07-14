@@ -3,7 +3,7 @@ name: add_mod_entry
 # Controls when the workflow will run
 on:
   repository_dispatch:
-    types: [add_this_mod]
+#    types: [add_this_mod]
 
 jobs:
   build:
