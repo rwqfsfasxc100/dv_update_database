@@ -59,9 +59,25 @@ if not os.path.isdir(zip_path):
     os.mkdir(zip_path)
 print("dir: " + directory_path)
 
+def topic_format(item, current_page):
+    topic_filepath = topic_path + 'topic_page_%s.json' % current_page
+    details_filepath = "https://raw.githubusercontent.com/%s/refs/heads/%s/MOD_DETAILS.txt"
+    
+    for DATA in item["items"]:
+        branch = DATA.get("default_branch")
+        pathName = DATA.get("full_name")
+        path = "https://raw.githubusercontent.com/%s/refs/heads/%s/MOD_DETAILS.txt" % (pathName,branch)
+        
+        response = requests.get(path)
+        if response.status_code == 200:
+            print("Has MOD_DETAILS file: " + path)
+            
+            
+            
+
 current_page = 1
 data = fetch_topic_page(current_page,access_token)
-
+topic_format(data, current_page)
 
 datafile = open(topic_path + 'topic_page_%s.json' % current_page, 'w', encoding="utf-8")
 json.dump(data, datafile, indent="\t")
