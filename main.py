@@ -89,9 +89,9 @@ for mod_id in mod_data:
         newver_major = 0
         newver_minor = 0
         newver_bugfix = 0
-        curver_major = mod_data[mod_id]["major"]
-        curver_minor = mod_data[mod_id]["minor"]
-        curver_bugfix = mod_data[mod_id]["bugfix"]
+        curver_major = mod_data[mod_id].get("major",0)
+        curver_minor = mod_data[mod_id].get("minor",0)
+        curver_bugfix = mod_data[mod_id].get("bugfix",0)
         oldver = ver_string_format % (curver_major,curver_minor,curver_bugfix)
         capture_version = False
         
@@ -103,7 +103,7 @@ for mod_id in mod_data:
         if not os.path.isdir(curver_zip_path):
             print("mod version store doesn't exist, ensuring update: " + curver_zip_path)
             needs_update = True
-        if not os.path.isfile(curver_zip_path + mod_data[mod_id]["file_name"]):
+        if not os.path.isfile(curver_zip_path + mod_data[mod_id].get("file_name","file.zip")):
             print("mod version file doesn't exist, ensuring update: " + curver_zip_path)
             needs_update = True
         
