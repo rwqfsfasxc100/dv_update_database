@@ -12,7 +12,6 @@ mod_data = json.load(mod_data_file)
 
 pld = os.environ["THIS_PAYLOAD"]
 payload = json.loads(pld)
-print("Payload: " + payload)
 
 mod_id = payload.get("id","")
 manifest_url = payload.get("manifest_url","")
