@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '12 * * * *'
   workflow_dispatch:
+  workflow_run:
+    workflows: ['add_mod_entry']
+    types: [completed]
   repository_dispatch:
     types: [fetch_data]
 
