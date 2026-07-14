@@ -2,7 +2,8 @@ name: scheduled_fetch
 
 on:
   schedule:
-    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 * * * *' # Runs at 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, and 55 minutes past the hour
+    - cron: '0/10 * * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
