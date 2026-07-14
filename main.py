@@ -100,7 +100,10 @@ for mod_id in mod_data:
             print("mod zip store doesn't exist, ensuring update: " + current_zip_path)
             needs_update = True
         
-        
+        curver_zip_path = current_zip_path + oldver + "/"
+        if not os.path.isfile(curver_zip_path + mod_data[mod_id]["file_name"]):
+            print("mod version store doesn't exist, ensuring update: " + curver_zip_path)
+            needs_update = True
         
         for ln in str(response.text).split("\n"):
             line = ln.strip()
