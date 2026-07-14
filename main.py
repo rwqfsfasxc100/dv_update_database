@@ -81,7 +81,7 @@ mod_data = json.load(mod_data_file)
 
 for mod_id in mod_data:
     manifestpath = mod_data[mod_id]["manifest_path"]
-    print("fetching %s @ %s" % (mod_id,manifestpath)
+    print("fetching %s @ %s" % (mod_id,manifestpath))
     response = requests.get(manifestpath)
     if response.status_code == 200:
         needs_update = False
