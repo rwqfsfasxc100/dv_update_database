@@ -17,6 +17,8 @@ mod_id = payload.get("id","")
 manifest_url = payload.get("manifest_url","")
 github_url = payload.get("github_url","")
 if mod_id and manifest_url and github_url:
+    if not mod_id in mod_data:
+        mod_data[mod_id] = {}
     mod_data[mod_id]["manifest_url"] = manifest_url
     mod_data[mod_id]["github_url"] = github_url
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
