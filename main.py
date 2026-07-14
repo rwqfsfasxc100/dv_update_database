@@ -100,6 +100,8 @@ for mod_id in mod_data:
             print("mod zip store doesn't exist, ensuring update: " + current_zip_path)
             needs_update = True
         
+        
+        
         if not needs_update:
             for ln in str(response.text).split("\n"):
                 line = ln.strip()
