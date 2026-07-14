@@ -121,7 +121,7 @@ for mod_id in mod_data:
                             newver_minor = int(line_split[1])
                         case "version_bugfix":
                             newver_bugfix = int(line_split[1])
-         if not needs_update:
+        if not needs_update:
             if newver_major > curver_major:
                 needs_update = True
             elif newver_minor > curver_minor:
