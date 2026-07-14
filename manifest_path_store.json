@@ -1,156 +1,156 @@
 {
 	"https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest": {
 		"id": "hev.IndustriesOfEnceladus",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 2,
+		"minor": 9,
+		"bugfix": 3,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest": {
 		"id": "hev.LIBRARY",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 1,
+		"minor": 15,
+		"bugfix": 3,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest": {
 		"id": "wt.ShipTransponder",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 4,
+		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/ShipTransponder"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/MoveXenonSlider/main/Mod.manifest": {
 		"id": "wt.MoveXenonSlider",
 		"major": 0,
 		"minor": 0,
-		"bugfix": 0,
+		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/MoveXenonSlider"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest": {
 		"id": "hev.ModMenu2",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 1,
+		"minor": 1,
+		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/ModMenu2"
 	},
 	"https://raw.githubusercontent.com/JCalebBR/AftermarketHuds/refs/heads/main/Mod.manifest": {
 		"id": "jcaleb.AftermarketHuds",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 2,
+		"bugfix": 1,
 		"github_url": "https://github.com/JCalebBR/AftermarketHuds"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest": {
 		"id": "hev.VelocityPlus",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 1,
+		"minor": 5,
+		"bugfix": 9,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest": {
 		"id": "wt.RGBLasers",
-		"major": 0,
-		"minor": 0,
+		"major": 2,
+		"minor": 1,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/RGB-Lasers"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/FunnelTitan/main/Mod.manifest": {
 		"id": "wt.funnel_titan",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 1,
+		"bugfix": 2,
 		"github_url": "https://github.com/1-WT-1/FunnelTitan"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest": {
 		"id": "hev.FullMineralNames",
-		"major": 0,
-		"minor": 0,
+		"major": 1,
+		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/FullMineralNames"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/Moar-RADARs/refs/heads/main/Mod.manifest": {
 		"id": "wt.MoarRadars",
-		"major": 0,
+		"major": 2,
 		"minor": 0,
-		"bugfix": 0,
+		"bugfix": 4,
 		"github_url": "https://github.com/1-WT-1/Moar-RADARs-Delta-V-Mod"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/SandevistanAdrenaline/main/Mod.manifest": {
 		"id": "wt.SandevistanAdrenaline",
 		"major": 0,
-		"minor": 0,
+		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/SandevistanAdrenaline"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/Abandoned-Technologies/1.0.0/Mod.manifest": {
 		"id": "hev.DerelictDelights",
-		"major": 0,
+		"major": 3,
 		"minor": 0,
-		"bugfix": 0,
+		"bugfix": 12,
 		"github_url": "https://github.com/rwqfsfasxc100/Derelict-Delights"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/Hevs-More-Minerals/main/Mod.manifest": {
 		"id": "hev.MoreMinerals",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 1,
+		"minor": 5,
+		"bugfix": 5,
 		"github_url": "https://github.com/rwqfsfasxc100/Hevs-More-Minerals"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/MimicGun/main/Mod.manifest": {
 		"id": "wt.mimic_gun",
 		"major": 0,
-		"minor": 0,
+		"minor": 1,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/MimicGun"
 	},
 	"https://raw.githubusercontent.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/main/Mod.manifest": {
 		"id": "hev.FoxyJumpscare",
-		"major": 0,
+		"major": 1,
 		"minor": 0,
-		"bugfix": 0,
+		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/ToggleDrone/main/Mod.manifest": {
 		"id": "wt.toggle_drone",
-		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"major": 1,
+		"minor": 1,
+		"bugfix": 3,
 		"github_url": "https://github.com/1-WT-1/ToggleDrone"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/GravityTools/refs/heads/main/Mod.manifest": {
 		"id": "wt.GravityTools",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 2,
+		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/GravityTools"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/UwUify/main/Mod.manifest": {
 		"id": "wt.UwUify",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 3,
+		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/UwUify"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/EMPSynchro/refs/heads/main/Mod.manifest": {
 		"id": "wt.EMPSynchro",
 		"major": 0,
-		"minor": 0,
+		"minor": 1,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EMPSynchro"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/EIME_M/refs/heads/main/Mod.manifest": {
 		"id": "wt.EIME_M",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 4,
+		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/EIME_M"
 	},
 	"https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/Mod.manifest": {
 		"id": "wt.TreasurePlanet-TorpedoBoat",
 		"major": 0,
-		"minor": 0,
-		"bugfix": 0,
+		"minor": 2,
+		"bugfix": 2,
 		"github_url": "https://github.com/1-WT-1/TreasurePlanet-TorpedoBoat"
 	}
 }
