@@ -2,7 +2,7 @@ name: scheduled_fetch
 
 on:
   schedule:
-    - cron: '0/10 * * * *'
+    - cron: '5/10 * * * *'
 
 jobs:
   build:
