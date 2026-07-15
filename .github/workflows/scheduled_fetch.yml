@@ -2,7 +2,7 @@ name: scheduled_fetch
 
 on:
   schedule:
-    - cron: '12 * * * *'
+    - cron: '20 4 * * *'
   workflow_dispatch:
   workflow_run:
     workflows: ['add_mod_entry']
