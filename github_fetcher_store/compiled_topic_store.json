@@ -215,5 +215,19 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.LIBRARY.font_pack_1.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.LIBRARY.font_pack_1/HevLib.Language.Font.Pack.1.zip"
+	},
+	"wt.UwUify": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.UwUify",
+				"MOD_NAME": "UwUify",
+				"MOD_ICON": "https://raw.githubusercontent.com/1-WT-1/UwUify/refs/heads/main/icon.png",
+				"MOD_ZIP_NAME": "UwUify.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n\nAdds a new UwU language option.\n\n[u][b]Configuration:[/b][/u]\n[indent]* [b]Enable Dialogue UwU[/b]: Apply UwU transformation to dialogue text.[/indent]\n[indent]* [b]Enable UI UwU[/b]: Apply UwU transformation to UI and HUD.[/indent]\n[indent]* [b]Enable Tooltips UwU[/b]: Apply UwU transformation to tooltips.[/indent]\n[indent]* [b]Enable Equipment UwU[/b]: Apply UwU transformation to equipment names and descriptions.[/indent]\n[indent]* [b]Enable Ships UwU[/b]: Apply UwU transformation to ship names and descriptions.[/indent]\n[indent]* [b]Enable World UwU[/b]: Apply UwU transformation to lore, oddities, and services.[/indent]\n[indent]* [b]Enable Tips UwU[/b]: Apply UwU transformation to loading screen tips.[/indent]\n[indent]* [b]Enable Tunes UwU[/b]: Apply UwU transformation to ship tuning descriptions.[/indent]\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.UwUify.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.UwUify/UwUify.zip"
 	}
 }
