@@ -11,7 +11,7 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
 		"minor": 15,
-		"bugfix": 17,
+		"bugfix": 18,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip"
 	},
@@ -82,8 +82,8 @@
 	"wt.MoarRadars": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/Moar-RADARs/refs/heads/main/Mod.manifest",
 		"major": 2,
-		"minor": 0,
-		"bugfix": 4,
+		"minor": 1,
+		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/Moar-RADARs-Delta-V-Mod",
 		"file_name": "MoarRADARs.zip"
 	},
