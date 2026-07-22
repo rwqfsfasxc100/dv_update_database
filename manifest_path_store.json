@@ -58,7 +58,7 @@
 	"wt.RGBLasers": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest",
 		"major": 2,
-		"minor": 1,
+		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/RGB-Lasers",
 		"file_name": "RGB-Lasers.zip"
@@ -90,7 +90,7 @@
 	"wt.SandevistanAdrenaline": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SandevistanAdrenaline/main/Mod.manifest",
 		"major": 0,
-		"minor": 2,
+		"minor": 3,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/SandevistanAdrenaline",
 		"file_name": "SandevistanAdrenaline.zip"

@@ -90,7 +90,7 @@
 				"MOD_ZIP_NAME": "RGB-Lasers.zip",
 				"AUTHOR": "1-WT-1"
 			},
-			"readme": "\n\nMakes mining lasers color cycle through the RGB spectrum.\nIncludes Caramelldansen sound replacement for the firing sound.\n\n"
+			"readme": "\n[center][b]RGB Lasers[/b][/center]\n\nMakes mining lasers color cycle through the RGB spectrum.\nIncludes Caramelldansen sound replacement for the firing sound.\n\n"
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.RGBLasers.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.RGBLasers/RGB-Lasers.zip"
@@ -172,7 +172,7 @@
 				"MOD_ZIP_NAME": "SandevistanAdrenaline.zip",
 				"AUTHOR": "1-WT-1"
 			},
-			"readme": "\n[b]Sandevistan Adrenaline[/b]\n\nBoosts player ship thrusters during adrenal slowdown, allowing normalish movement while time is slowed.\n\n"
+			"readme": "\n[center][b]Sandevistan Adrenaline[/b][/center]\n\nBoosts player ship thrusters during adrenal slowdown, allowing normalish movement while time is slowed.\n\n"
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.SandevistanAdrenaline.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.SandevistanAdrenaline/SandevistanAdrenaline.zip"
