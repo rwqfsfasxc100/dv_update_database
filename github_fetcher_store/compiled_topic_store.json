@@ -229,5 +229,18 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.UwUify.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.UwUify/UwUify.zip"
+	},
+	"wt.DVHudHueMod": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.DVHudHueMod",
+				"MOD_NAME": "DVHudHueMod",
+				"MOD_ZIP_NAME": "DVHudHueMod.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]DVHudHueMod[/b][/center]\nGrants options to independently modify LCh (Lightness, Chroma, Hue) parameters of the RGB channels in HUD/UI.\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.DVHudHueMod.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.DVHudHueMod/DVHudHueMod.zip"
 	}
 }
