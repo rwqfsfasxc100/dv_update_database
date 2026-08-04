@@ -165,10 +165,10 @@ def topic_format(item, current_page):
                     print("MISSING MOD ID: " + path)
                     sys.exit(1)
             else:
-                print("Couldn't fetch latest release")
+                print("Couldn't fetch latest release at: " + latest_release_path)
                 sys.exit(1)
         else:
-            print("Couldn't fetch MOD_DETAILS.txt")
+            print("Couldn't fetch MOD_DETAILS.txt for " + path)
     jgt = open(compiled_topic_file, 'w', encoding="utf-8")
     json.dump(topic_data, jgt, indent="\t")
 
