@@ -46,14 +46,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
-      - name: Send mail
-        if: failure()
-        uses: dawidd6/action-send-mail@v3
-        with:
-            to: ${{ secrets.MAIL_TO }}
-            from: __hev <notifications@github.com>
-            subject: "DATABASE FETCH FAILED"
-            priority: high
-            convert_markdown: true
-            html_body: |
-                ### DATABASE FETCH FAILED
