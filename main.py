@@ -10,7 +10,7 @@ try:
 except KeyError:
     access_token = "Token not available!"
 
-return 1
+
 page_size = 100
 def fetch_api(url,token):
     headers = {
