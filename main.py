@@ -10,7 +10,7 @@ try:
 except KeyError:
     access_token = "Token not available!"
 
-sys.exit(1)
+
 page_size = 100
 def fetch_api(url,token):
     headers = {
@@ -21,6 +21,7 @@ def fetch_api(url,token):
         updated_repo_data = response.json()
         return updated_repo_data
     else:
+        sys.exit(1)
         return None
 
 def fetch_topic_page(page_no,token):
@@ -34,6 +35,7 @@ def fetch_topic_page(page_no,token):
         updated_repo_data = response.json()
         return updated_repo_data
     else:
+        sys.exit(1)
         return None
 
 def checkIfAcceptable(n):
@@ -159,6 +161,11 @@ def topic_format(item, current_page):
                     
                 else:
                     print("MISSING MOD ID: " + path)
+                    sys.exit(1)
+            else:
+                sys.exit(1)
+        else:
+            sys.exit(1)
     jgt = open(compiled_topic_file, 'w', encoding="utf-8")
     json.dump(topic_data, jgt, indent="\t")
 
@@ -286,7 +293,9 @@ for mod_id in mod_data:
                     download_file(download_url,zip_file)
             else:
                 print("failed to fetch mod info")
+                sys.exit(1)
     else:
         print("failed to fetch " + manifestpath)
+        sys.exit(1)
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
 json.dump(mod_data, mdrf, indent="\t")
