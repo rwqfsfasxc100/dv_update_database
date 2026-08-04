@@ -52,7 +52,7 @@ jobs:
         with:
             to: ${{ secrets.MAIL_TO }}
             from: __hev <notifications@github.com>
-            subject: ${{ gitea.repository }} ${{gitea.workflow}} ${{ job.status }}
+            subject: "DATABASE FETCH FAILED"
             priority: high
             convert_markdown: true
             html_body: |
