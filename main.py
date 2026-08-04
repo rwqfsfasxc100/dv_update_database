@@ -258,7 +258,7 @@ for mod_id in mod_data:
             elif newver_bugfix > curver_bugfix:
                 needs_update = True
         if needs_update:
-            print("Out of date, fetching new version")
+            print("Out of date, fetching new version for " + mod_id)
             mod_data[mod_id]["major"] = newver_major
             mod_data[mod_id]["minor"] = newver_minor
             mod_data[mod_id]["bugfix"] = newver_bugfix
@@ -295,10 +295,10 @@ for mod_id in mod_data:
                     print("downloading mod zip from %s to %s " % (download_url,zip_file))
                     download_file(download_url,zip_file)
             else:
-                print("failed to fetch mod info")
+                print("failed to fetch mod info for " + github_url)
                 sys.exit(1)
     else:
-        print("failed to fetch " + manifestpath)
+        print("failed to fetch manifest " + manifestpath)
         sys.exit(1)
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
 json.dump(mod_data, mdrf, indent="\t")
