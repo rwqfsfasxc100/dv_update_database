@@ -46,3 +46,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
+      - name: Send mail
+        if: failure()
+        uses: https://github.com/dawidd6/action-send-mail@v3
+        with:
+            to: ${{ secrets.MAIL_TO }}
+            from: __hev <notifications@github.com>
+            subject: ${{ gitea.repository }} ${{gitea.workflow}} ${{ job.status }}
+            priority: high
+            convert_markdown: true
+            html_body: |
+                ### DATABASE FETCH FAILED
