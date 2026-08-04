@@ -21,6 +21,7 @@ def fetch_api(url,token):
         updated_repo_data = response.json()
         return updated_repo_data
     else:
+        print("Failed to fetch API " + url)
         sys.exit(1)
         return None
 
@@ -35,6 +36,7 @@ def fetch_topic_page(page_no,token):
         updated_repo_data = response.json()
         return updated_repo_data
     else:
+        print("Failed to fetch topic page " + page_no)
         sys.exit(1)
         return None
 
@@ -163,9 +165,10 @@ def topic_format(item, current_page):
                     print("MISSING MOD ID: " + path)
                     sys.exit(1)
             else:
+                print("Couldn't fetch latest release")
                 sys.exit(1)
         else:
-            sys.exit(1)
+            print("Couldn't fetch MOD_DETAILS.txt")
     jgt = open(compiled_topic_file, 'w', encoding="utf-8")
     json.dump(topic_data, jgt, indent="\t")
 
