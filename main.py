@@ -29,7 +29,7 @@ def fetch_topic_page(page_no,token):
     headers = {
         "Authorization": f"token {token}",
     }
-    url = 'https://api.github.com/search/repositories?q=topic:delta-v-rings-of-saturn&per_page=%s&page=%s' % (page_size,page_no)
+    url = 'https://api.github.com/search/repositories?q=topic:delta-v-rings-of-saturn&per_page=%s&page=%s' % (page_size,str(page_no))
     print(url)
     response = requests.get(url,headers)
     if response.status_code == 200:
