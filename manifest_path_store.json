@@ -2,8 +2,8 @@
 	"hev.IndustriesOfEnceladus": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest",
 		"major": 2,
-		"minor": 9,
-		"bugfix": 14,
+		"minor": 10,
+		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip"
 	},
@@ -50,8 +50,8 @@
 	"hev.VelocityPlus": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest",
 		"major": 1,
-		"minor": 6,
-		"bugfix": 4,
+		"minor": 7,
+		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus",
 		"file_name": "VelocityPlus.zip"
 	},
@@ -98,8 +98,8 @@
 	"hev.DerelictDelights": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Abandoned-Technologies/1.0.0/Mod.manifest",
 		"major": 3,
-		"minor": 1,
-		"bugfix": 3,
+		"minor": 2,
+		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/Derelict-Delights",
 		"file_name": "AbandonedTechnologies.zip"
 	},
