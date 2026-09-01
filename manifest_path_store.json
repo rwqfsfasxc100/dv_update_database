@@ -131,15 +131,15 @@
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ToggleDrone/main/Mod.manifest",
 		"major": 1,
 		"minor": 1,
-		"bugfix": 3,
+		"bugfix": 4,
 		"github_url": "https://github.com/1-WT-1/ToggleDrone",
 		"file_name": "ToggleDrone.zip"
 	},
 	"wt.GravityTools": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/GravityTools/refs/heads/main/Mod.manifest",
 		"major": 0,
-		"minor": 2,
-		"bugfix": 1,
+		"minor": 3,
+		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/GravityTools",
 		"file_name": "GravityTools.zip"
 	},
@@ -170,8 +170,8 @@
 	"wt.TreasurePlanet-TorpedoBoat": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/Mod.manifest",
 		"major": 0,
-		"minor": 2,
-		"bugfix": 2,
+		"minor": 3,
+		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/TreasurePlanet-TorpedoBoat",
 		"file_name": "TreasurePlanet-TorpedoBoat.zip"
 	}

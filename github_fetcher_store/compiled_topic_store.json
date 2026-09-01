@@ -103,7 +103,7 @@
 				"MOD_ZIP_NAME": "ToggleDrone.zip",
 				"AUTHOR": "1-WT-1"
 			},
-			"readme": "\n\nA mod that introduces the [b]Adaptive Nanodrone System[/b], allowing to switch between stopping objects (Tug) and retrieving them (Haul) on the fly.\n\n[u][b]Features:[/b][/u]\n[indent]* [b]Dynamic Mode Switching[/b]: Toggle between Haul and Tug using your slot activation key.[/indent]\n[indent]* [b]Default Mode Tuning[/b]: Set the preferred starting mode for each ship slot via the Tuning menu.[/indent]\n\n[u][b]Configuration:[/b][/u]\n[indent]* [b]Cycle Order[/b]:[/indent]\n[indent][indent]- [b]Fixed[/b]: Always cycles Haul -> Tug -> Off.[/indent][/indent]\n[indent][indent]- [b]Adaptive[/b]: Cycles Default Mode -> Other Mode -> Off.[/indent][/indent]\n\n"
+			"readme": "\n[center][b]Toggle Drone[/b][/center]\n\nA mod that introduces the [b]Adaptive Nanodrone System[/b], allowing to switch between stopping objects (Tug) and retrieving them (Haul) on the fly.\n\n[u][b]Features:[/b][/u]\n[indent]* [b]Dynamic Mode Switching[/b]: Toggle between Haul and Tug using your slot activation key.[/indent]\n[indent]* [b]Default Mode Tuning[/b]: Set the preferred starting mode for each ship slot via the Tuning menu.[/indent]\n\n[u][b]Configuration:[/b][/u]\n[indent]* [b]Cycle Order[/b]:[/indent]\n[indent][indent]- [b]Fixed[/b]: Always cycles Haul -> Tug -> Off.[/indent][/indent]\n[indent][indent]- [b]Adaptive[/b]: Cycles Default Mode -> Other Mode -> Off.[/indent][/indent]\n\n"
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.toggle_drone.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.toggle_drone/ToggleDrone.zip"
@@ -256,5 +256,33 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.funnel_titan.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.funnel_titan/FunnelTitan.zip"
+	},
+	"wt.GravityTools": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.GravityTools",
+				"MOD_NAME": "Gravity Tools",
+				"MOD_ICON": "https://raw.githubusercontent.com/1-WT-1/GravityTools/refs/heads/main/icon.png",
+				"MOD_ZIP_NAME": "GravityTools.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]Gravity Tools[/b][/center]\n\nA mod adding gravity manipulation equipment for Delta-V.\n\n[u][b]Features:[/b][/u]\n\n[b]Gravity Beacon Drone[/b]\n[indent]A deployable drone that creates localized gravity wells to attract or repel objects within its radius.[/indent]\n\n[b]Gravity Gun[/b]\n[indent]A high-stress mounted \"weapon\" that projects a directional gravity field. Pulls objects towards your ship within a cone.[/indent]\n\n[u][b]Credits:[/b][/u]\n[indent]Idea by [b]Lurkily[/b] (from discord megathread)[/indent]\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.GravityTools.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.GravityTools/GravityTools.zip"
+	},
+	"wt.TreasurePlanet-TorpedoBoat": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.TreasurePlanet-TorpedoBoat",
+				"MOD_NAME": "Treasure Planet Torpedo Boat",
+				"MOD_ICON": "https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/icon.png",
+				"MOD_ZIP_NAME": "TreasurePlanet-TorpedoBoat.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]Treasure Planet Torpedo Boat[/b][/center]\n\nA recreation of a vessel from the 21st-century video game, \"Treasure Planet: Battle at Procyon\". This \"Age of Sail\" design utilizes a minimal thruster layout; its agility comes from the exceptionally wide gimbal range on both its main engine and its two maneuvering thrusters.\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.TreasurePlanet-TorpedoBoat.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.TreasurePlanet-TorpedoBoat/TreasurePlanet-TorpedoBoat.zip"
 	}
 }
