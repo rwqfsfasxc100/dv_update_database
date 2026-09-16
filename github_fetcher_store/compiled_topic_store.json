@@ -284,5 +284,17 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.TreasurePlanet-TorpedoBoat.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.TreasurePlanet-TorpedoBoat/TreasurePlanet-TorpedoBoat.zip"
+	},
+	"hev.LIBRARY.discord_rpc": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "hev.LIBRARY.discord_rpc",
+				"MOD_NAME": "HevLib Discord RPC",
+				"AUTHOR": "__hev"
+			},
+			"readme": "\n[center][b]HevLib Discord RPC[/b][/center]\n\nLibrary extension for HevLib that provides samsface's godot discord game SDK library to HevLib for use with it's Discord RPC implementation.\n\n[b]Successor to the previous application-based Delta-V Discord RPC[/b]\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.LIBRARY.discord_rpc.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.LIBRARY.discord_rpc/HevLib.Discord.RPC.zip"
 	}
 }
