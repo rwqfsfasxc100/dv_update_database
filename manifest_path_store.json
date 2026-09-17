@@ -185,6 +185,10 @@
 	},
 	"hev.LIBRARY.discord_rpc": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Discord-RPC/refs/heads/main/mod.manifest",
-		"github_url": "https://github.com/rwqfsfasxc100/HevLib-Discord-RPC"
+		"github_url": "https://github.com/rwqfsfasxc100/HevLib-Discord-RPC",
+		"major": 1,
+		"minor": 0,
+		"bugfix": 0,
+		"file_name": "HevLib.Discord.RPC.zip"
 	}
 }
