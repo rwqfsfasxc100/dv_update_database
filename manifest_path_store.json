@@ -11,7 +11,7 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
 		"minor": 16,
-		"bugfix": 1,
+		"bugfix": 2,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip"
 	},
@@ -193,6 +193,10 @@
 	},
 	"wt.DVHudHueMod": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/DVHudHueMod/main/Mod.manifest",
-		"github_url": "https://github.com/1-WT-1/DVHudHueMod"
+		"github_url": "https://github.com/1-WT-1/DVHudHueMod",
+		"major": 1,
+		"minor": 1,
+		"bugfix": 0,
+		"file_name": "DVHudHueMod.zip"
 	}
 }
