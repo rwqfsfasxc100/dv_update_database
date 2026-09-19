@@ -198,5 +198,9 @@
 		"minor": 1,
 		"bugfix": 0,
 		"file_name": "DVHudHueMod.zip"
+	},
+	"hev.DifficultyTweaker": {
+		"manifest_url": "raw.githubusercontent.com/rwqfsfasxc100/DifficultyTweaker/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/rwqfsfasxc100/DifficultyTweaker"
 	}
 }
