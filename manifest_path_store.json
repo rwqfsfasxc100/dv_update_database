@@ -214,5 +214,9 @@
 		"minor": 0,
 		"bugfix": 0,
 		"file_name": "AutopilotComfortToggle.zip"
+	},
+	"wt.RapidSynchro": {
+		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RapidSynchro/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/1-WT-1/RapidSynchro"
 	}
 }
