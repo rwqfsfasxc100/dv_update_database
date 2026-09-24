@@ -154,7 +154,7 @@
 	"wt.EMPSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EMPSynchro/refs/heads/main/Mod.manifest",
 		"major": 0,
-		"minor": 1,
+		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EMPSynchro",
 		"file_name": "EMPSynchro.zip"
@@ -218,8 +218,8 @@
 	"wt.RapidSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RapidSynchro/refs/heads/main/Mod.manifest",
 		"github_url": "https://github.com/1-WT-1/RapidSynchro",
-		"major": 0,
-		"minor": 0,
+		"major": 1,
+		"minor": 2,
 		"bugfix": 0,
 		"file_name": "RapidSynchro.zip"
 	}

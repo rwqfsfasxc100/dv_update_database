@@ -309,5 +309,44 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.DifficultyTweaker.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.DifficultyTweaker/DifficultyTweaker.zip"
+	},
+	"wt.EMPSynchro": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.EMPSynchro",
+				"MOD_NAME": "EMP Synchrotrons",
+				"MOD_ZIP_NAME": "EMPSynchro.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]EMP Synchrotrons[/b][/center]\n\nEquipment mod for \u0394V: Rings of Saturn.\n\n[b]What if your mining weapon fired lightning storms?[/b]\n\nThis mod introduces the experimental weapon \"Bremsstrahlung\" - that infuses gigawatts of EMP potential directly into ringoids to gently separate ores from clusters. Dealing massive electromagnetic damage upon impact, it leaves a highly dangerous residual charge in the immediate area.\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.EMPSynchro.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.EMPSynchro/EMPSynchro.zip"
+	},
+	"wt.RapidSynchro": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.RapidSynchro",
+				"MOD_NAME": "Rapid Synchrotrons",
+				"MOD_ZIP_NAME": "RapidSynchro.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]Rapid Synchrotrons[/b][/center]\n\nEquipment mod for \u0394V: Rings of Saturn.\n\n[b]What if SPC Gungnir fired quickly?[/b]\n\nThis mod introduces such weapon \"Stacatto\" - that fires rapid bursts of smaller particle packets. Sustained fire causes system strain, eventually forcing a temporary shutdown. Handle with care.\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.RapidSynchro.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.RapidSynchro/RapidSynchro.zip"
+	},
+	"wt.AutopilotComfortToggle": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.AutopilotComfortToggle",
+				"MOD_NAME": "Autopilot Comfort Limiter Toggle",
+				"AUTHOR": "1-WT-1",
+				"MOD_ZIP_NAME": "AutopilotComfortToggle.zip"
+			},
+			"readme": "\n[center][b]Autopilot Comfort Limiter Toggle[/b][/center]\nAdds an in-game tuning toggle under Autopilot to disable acceleration comfort limits, allowing any ship to maneuver with full thruster authority in permanent performance mode.\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.AutopilotComfortToggle.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.AutopilotComfortToggle/AutopilotComfortToggle.zip"
 	}
 }
