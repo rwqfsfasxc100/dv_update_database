@@ -225,6 +225,10 @@
 	},
 	"paradoxedge.thrusters": {
 		"manifest_url": "https://raw.githubusercontent.com/Paradox-Edge/P-T_Pack/refs/heads/main/Mod.manifest",
-		"github_url": "https://github.com/Paradox-Edge/P-T_Pack"
+		"github_url": "https://github.com/Paradox-Edge/P-T_Pack",
+		"major": 1,
+		"minor": 0,
+		"bugfix": 1,
+		"file_name": "P-TPack.zip"
 	}
 }
