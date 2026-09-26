@@ -222,5 +222,9 @@
 		"minor": 2,
 		"bugfix": 1,
 		"file_name": "RapidSynchro.zip"
+	},
+	"paradoxedge.thrusters": {
+		"manifest_url": "https://raw.githubusercontent.com/Paradox-Edge/P-T_Pack/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/Paradox-Edge/P-T_Pack"
 	}
 }
