@@ -19,7 +19,7 @@
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
 		"major": 0,
 		"minor": 4,
-		"bugfix": 1,
+		"bugfix": 2,
 		"github_url": "https://github.com/1-WT-1/ShipTransponder",
 		"file_name": "ShipTransponder.zip"
 	},
@@ -220,7 +220,7 @@
 		"github_url": "https://github.com/1-WT-1/RapidSynchro",
 		"major": 1,
 		"minor": 2,
-		"bugfix": 0,
+		"bugfix": 1,
 		"file_name": "RapidSynchro.zip"
 	}
 }
