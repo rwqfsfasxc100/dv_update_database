@@ -238,5 +238,9 @@
 		"minor": 2,
 		"bugfix": 1,
 		"file_name": "FullMineralNames.zip"
+	},
+	"hev.RockPersist": {
+		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/PersistentFracturing/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/rwqfsfasxc100/PersistentFracturing"
 	}
 }
