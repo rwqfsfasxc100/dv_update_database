@@ -373,5 +373,17 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.SkinSelector.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.SkinSelector/SkinSelector.zip"
+	},
+	"hev.RockPersist": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "hev.RockPersist",
+				"MOD_NAME": "Persistent Fracturing",
+				"AUTHOR": "__hev"
+			},
+			"readme": "\n[b]Persistent Fracturing[/b]\n\nChanges ringroids to remember their initial composition, and keep it regardless of traversal or astrogation. Ringroids fracturing into smaller roids also pass down their composition.\n\nHas the option to have roids brought to Enceladus Prime keep their composition instead of just giving you water.\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.RockPersist.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.RockPersist/PersistentFracturing.zip"
 	}
 }
