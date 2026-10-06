@@ -3,7 +3,7 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest",
 		"major": 2,
 		"minor": 10,
-		"bugfix": 8,
+		"bugfix": 9,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip"
 	},
@@ -11,7 +11,7 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
 		"minor": 16,
-		"bugfix": 20,
+		"bugfix": 21,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip"
 	},
@@ -34,8 +34,8 @@
 	"hev.ModMenu2": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest",
 		"major": 1,
-		"minor": 1,
-		"bugfix": 2,
+		"minor": 2,
+		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/ModMenu2",
 		"file_name": "ModMenu2.zip"
 	},
