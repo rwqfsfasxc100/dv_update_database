@@ -2,6 +2,7 @@ import requests
 import os
 import math
 import json
+import hashlib
 
 from pathlib import PureWindowsPath
 
