@@ -25,6 +25,10 @@ def fetch_api(url,token):
         sys.exit(1)
         return None
 
+def sha256sum(filename):
+    with open(filename, 'rb', buffering=0) as f:
+        return hashlib.file_digest(f, 'sha256').hexdigest()
+
 def fetch_topic_page(page_no,token):
     headers = {
         "Authorization": f"token {token}",
@@ -291,6 +295,7 @@ for mod_id in mod_data:
                         os.mkdir(this_zip_path)
                     zipname = download_url.split("/")[-1]
                     mod_data[mod_id]["file_name"] = zipname
+                    mod_data[mod_id]["sha256"] = sha256sum(zipname)
                     zip_file = this_zip_path + zipname
                     print("downloading mod zip from %s to %s " % (download_url,zip_file))
                     download_file(download_url,zip_file)
