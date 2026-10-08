@@ -215,24 +215,24 @@ mod_data = json.load(mod_data_file)
 for mod_id in mod_data:
     manifestpath = mod_data[mod_id]["manifest_url"]
     print("fetching %s @ %s" % (mod_id,manifestpath))
+    ver_string_format = "%s.%s.%s"
+    curver_major = mod_data[mod_id].get("major",0)
+    curver_minor = mod_data[mod_id].get("minor",0)
+    curver_bugfix = mod_data[mod_id].get("bugfix",0)
+    oldver = ver_string_format % (curver_major,curver_minor,curver_bugfix)
+    current_zip_path = zip_path + mod_id + "/"
+    curver_zip_path = current_zip_path + oldver + "/"
     response = requests.get(manifestpath)
     if response.status_code == 200:
         needs_update = False
-        ver_string_format = "%s.%s.%s"
         newver_major = 0
         newver_minor = 0
         newver_bugfix = 0
-        curver_major = mod_data[mod_id].get("major",0)
-        curver_minor = mod_data[mod_id].get("minor",0)
-        curver_bugfix = mod_data[mod_id].get("bugfix",0)
-        oldver = ver_string_format % (curver_major,curver_minor,curver_bugfix)
         capture_version = False
-        
-        current_zip_path = zip_path + mod_id + "/"
         if not os.path.isdir(current_zip_path):
             print("mod zip store doesn't exist, ensuring update: " + current_zip_path)
             needs_update = True
-        curver_zip_path = current_zip_path + oldver + "/"
+        
         if not os.path.isdir(curver_zip_path):
             print("mod version store doesn't exist, ensuring update: " + curver_zip_path)
             needs_update = True
@@ -295,15 +295,17 @@ for mod_id in mod_data:
                         os.mkdir(this_zip_path)
                     zipname = download_url.split("/")[-1]
                     mod_data[mod_id]["file_name"] = zipname
-                    mod_data[mod_id]["sha256"] = sha256sum(zipname)
                     zip_file = this_zip_path + zipname
                     print("downloading mod zip from %s to %s " % (download_url,zip_file))
                     download_file(download_url,zip_file)
+                    
             else:
                 print("failed to fetch mod info for " + github_url)
                 sys.exit(1)
     else:
         print("failed to fetch manifest " + manifestpath)
         sys.exit(1)
+    thisVer = ver_string_format % (mod_data[mod_id].get("major",0),mod_data[mod_id].get("minor",0),mod_data[mod_id].get("bugfix",0))
+    mod_data[mod_id]["sha256"] = sha256sum(current_zip_path + thisVer + "/" + mod_data[mod_id]["file_name"])
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
 json.dump(mod_data, mdrf, indent="\t")
