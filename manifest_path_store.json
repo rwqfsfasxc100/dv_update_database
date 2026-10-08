@@ -5,7 +5,8 @@
 		"minor": 10,
 		"bugfix": 9,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
-		"file_name": "IndustriesOfEnceladusRewrite.zip"
+		"file_name": "IndustriesOfEnceladusRewrite.zip",
+		"sha256": "6ece57bbc93005d08e6ac0590a32332dad653333e8e886ba0503062eb642af8a"
 	},
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
@@ -13,7 +14,8 @@
 		"minor": 16,
 		"bugfix": 23,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
-		"file_name": "HevLib.zip"
+		"file_name": "HevLib.zip",
+		"sha256": "38e8edaa1801b6b07361088f01a16bfc2eda593cd474f18ab647794348095bd8"
 	},
 	"wt.ShipTransponder": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
@@ -21,7 +23,8 @@
 		"minor": 4,
 		"bugfix": 2,
 		"github_url": "https://github.com/1-WT-1/ShipTransponder",
-		"file_name": "ShipTransponder.zip"
+		"file_name": "ShipTransponder.zip",
+		"sha256": "85ddaa3f4c5a52c9cd7dfc7de7da4cf2dcceb004ebbb9b8023c0337613c8b888"
 	},
 	"wt.MoveXenonSlider": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/MoveXenonSlider/main/Mod.manifest",
@@ -29,7 +32,8 @@
 		"minor": 0,
 		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/MoveXenonSlider",
-		"file_name": "MoveXenonSlider.zip"
+		"file_name": "MoveXenonSlider.zip",
+		"sha256": "69e694088832f83a32c95212b2ec82f0ecf89de92bc9c7d94d12ac53352e1101"
 	},
 	"hev.ModMenu2": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest",
@@ -37,7 +41,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/ModMenu2",
-		"file_name": "ModMenu2.zip"
+		"file_name": "ModMenu2.zip",
+		"sha256": "b148b9580d6a631254b315f4f52e386708987f3b1fb0a34f4faadb2fbeb97464"
 	},
 	"jcaleb.AftermarketHuds": {
 		"manifest_url": "https://raw.githubusercontent.com/JCalebBR/AftermarketHuds/refs/heads/main/Mod.manifest",
@@ -45,7 +50,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"github_url": "https://github.com/JCalebBR/AftermarketHuds",
-		"file_name": "AftermarketHuds.zip"
+		"file_name": "AftermarketHuds.zip",
+		"sha256": "833b4d55ab08561942fe4b38e4e30462646341b4275709cc801c4b7fbafa38cb"
 	},
 	"hev.VelocityPlus": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest",
@@ -53,7 +59,8 @@
 		"minor": 7,
 		"bugfix": 4,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus",
-		"file_name": "VelocityPlus.zip"
+		"file_name": "VelocityPlus.zip",
+		"sha256": "5c41362ad9054c2bb70addf572d28bb8f152626090d6da3d3b581796bc78a5bf"
 	},
 	"wt.RGBLasers": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest",
@@ -61,7 +68,8 @@
 		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/RGB-Lasers",
-		"file_name": "RGB-Lasers.zip"
+		"file_name": "RGB-Lasers.zip",
+		"sha256": "9f868b4761ff7dce404f2cab86cb4a571ed5346469a11aac2536813fab2aa2f3"
 	},
 	"wt.funnel_titan": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/FunnelTitan/main/Mod.manifest",
@@ -69,7 +77,8 @@
 		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/FunnelTitan",
-		"file_name": "FunnelTitan.zip"
+		"file_name": "FunnelTitan.zip",
+		"sha256": "c9e19ca02206e7ce2b0274eefbe8b22b06c43a9e5453dcf9a1ddd8003288c4f2"
 	},
 	"hev.FullMineralNames": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest",
@@ -77,7 +86,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/FullMineralNames",
-		"file_name": "FullMineralNames.zip"
+		"file_name": "FullMineralNames.zip",
+		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9"
 	},
 	"wt.MoarRadars": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/Moar-RADARs/refs/heads/main/Mod.manifest",
@@ -85,7 +95,8 @@
 		"minor": 1,
 		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/Moar-RADARs-Delta-V-Mod",
-		"file_name": "MoarRADARs.zip"
+		"file_name": "MoarRADARs.zip",
+		"sha256": "e80af1148023b363c48ba5c15a45100365659fde6d432fb1f008cd58ea3085a6"
 	},
 	"wt.SandevistanAdrenaline": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SandevistanAdrenaline/main/Mod.manifest",
@@ -93,7 +104,8 @@
 		"minor": 3,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/SandevistanAdrenaline",
-		"file_name": "SandevistanAdrenaline.zip"
+		"file_name": "SandevistanAdrenaline.zip",
+		"sha256": "ff0d2516e8918ebe6bcbfc3defffef6a6c48a3d8c31c73f63bad1a0978865b6b"
 	},
 	"hev.DerelictDelights": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Abandoned-Technologies/1.0.0/Mod.manifest",
@@ -101,7 +113,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/Derelict-Delights",
-		"file_name": "AbandonedTechnologies.zip"
+		"file_name": "AbandonedTechnologies.zip",
+		"sha256": "16f236f69dbc4f9cdce2c3b01c024f908dcb97da91d7c75311cc7c462c4ffe00"
 	},
 	"hev.MoreMinerals": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Hevs-More-Minerals/main/Mod.manifest",
@@ -109,7 +122,8 @@
 		"minor": 6,
 		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/Hevs-More-Minerals",
-		"file_name": "Hevs-More-Minerals.zip"
+		"file_name": "Hevs-More-Minerals.zip",
+		"sha256": "ab4d656245ffb4560541b6780198288ee7bac0a3c038fec94ee4eae614bec002"
 	},
 	"wt.mimic_gun": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/MimicGun/main/Mod.manifest",
@@ -117,7 +131,8 @@
 		"minor": 1,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/MimicGun",
-		"file_name": "MimicGun.zip"
+		"file_name": "MimicGun.zip",
+		"sha256": "786815f4d7b7fd36f76a994e4fef137187dc9a7fb57ed536c97743b32d3866ce"
 	},
 	"hev.FoxyJumpscare": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/main/Mod.manifest",
@@ -125,7 +140,8 @@
 		"minor": 0,
 		"bugfix": 4,
 		"github_url": "https://github.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second",
-		"file_name": "1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip"
+		"file_name": "1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip",
+		"sha256": "692ee4631199ecc83d311b1358aa897a988cfe94356dd6babcfd75cd55bf974c"
 	},
 	"wt.toggle_drone": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ToggleDrone/main/Mod.manifest",
@@ -133,7 +149,8 @@
 		"minor": 1,
 		"bugfix": 4,
 		"github_url": "https://github.com/1-WT-1/ToggleDrone",
-		"file_name": "ToggleDrone.zip"
+		"file_name": "ToggleDrone.zip",
+		"sha256": "bd33b94c84d8bedc6e4becec856ce76cfde5d49ed690659a6b72173ba750dcdc"
 	},
 	"wt.GravityTools": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/GravityTools/refs/heads/main/Mod.manifest",
@@ -141,7 +158,8 @@
 		"minor": 3,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/GravityTools",
-		"file_name": "GravityTools.zip"
+		"file_name": "GravityTools.zip",
+		"sha256": "8db9bb09f44868781099a5d1f6ec1505ee6c444b1eb4af065f151c2c228251cb"
 	},
 	"wt.UwUify": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/UwUify/main/Mod.manifest",
@@ -149,7 +167,8 @@
 		"minor": 4,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/UwUify",
-		"file_name": "UwUify.zip"
+		"file_name": "UwUify.zip",
+		"sha256": "8cba79a20ed686de50dfdadc365ca1c530aadbca955f64e0f16097a89675fdaf"
 	},
 	"wt.EMPSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EMPSynchro/refs/heads/main/Mod.manifest",
@@ -157,7 +176,8 @@
 		"minor": 2,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EMPSynchro",
-		"file_name": "EMPSynchro.zip"
+		"file_name": "EMPSynchro.zip",
+		"sha256": "e7db78b391a7e9ece7e01bf181acb6c5f0cc4c1fdae9b2cc20e583b3deaf144a"
 	},
 	"wt.EIME_M": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EIME_M/refs/heads/main/Mod.manifest",
@@ -165,7 +185,8 @@
 		"minor": 4,
 		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/EIME_M",
-		"file_name": "EIME_M.zip"
+		"file_name": "EIME_M.zip",
+		"sha256": "5aa18f9812c8e26b4c5f03007b60410ea8e32d5f98d71fa3b95cebcf82dd078f"
 	},
 	"wt.TreasurePlanet-TorpedoBoat": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/Mod.manifest",
@@ -173,7 +194,8 @@
 		"minor": 3,
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/TreasurePlanet-TorpedoBoat",
-		"file_name": "TreasurePlanet-TorpedoBoat.zip"
+		"file_name": "TreasurePlanet-TorpedoBoat.zip",
+		"sha256": "fbf667a4707f6ab23324f70773f09e892e5411c5f64ca8c6712107202f069c51"
 	},
 	"hev.LIBRARY.font_pack_1": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Language-Font-Pack-1/refs/heads/main/Mod.manifest",
@@ -181,7 +203,8 @@
 		"major": 1,
 		"minor": 1,
 		"bugfix": 1,
-		"file_name": "HevLib.Language.Font.Pack.1.zip"
+		"file_name": "HevLib.Language.Font.Pack.1.zip",
+		"sha256": "cca1455c7b105367621b9f9dded692056823b0a44b19e51cd34d16e99b749340"
 	},
 	"hev.LIBRARY.discord_rpc": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Discord-RPC/refs/heads/main/mod.manifest",
@@ -189,7 +212,8 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 1,
-		"file_name": "HevLib.Discord.RPC.zip"
+		"file_name": "HevLib.Discord.RPC.zip",
+		"sha256": "5e0bff519114a4bac6233e55a770c705069146bdb3f761c2f4920d2b5c0f7630"
 	},
 	"wt.DVHudHueMod": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/DVHudHueMod/main/Mod.manifest",
@@ -197,7 +221,8 @@
 		"major": 1,
 		"minor": 2,
 		"bugfix": 0,
-		"file_name": "DVHudHueMod.zip"
+		"file_name": "DVHudHueMod.zip",
+		"sha256": "cf34e10054fe99e9c6945da5d985d4f7c34294f56913274014b2a7f9fbc88e5d"
 	},
 	"hev.DifficultyTweaker": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/DifficultyTweaker/refs/heads/main/Mod.manifest",
@@ -205,7 +230,8 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 1,
-		"file_name": "DifficultyTweaker.zip"
+		"file_name": "DifficultyTweaker.zip",
+		"sha256": "d33dcd52a3091d7373c0f7f4c615f1604c73b7479b8276f7c2f425e400315e93"
 	},
 	"wt.AutopilotComfortToggle": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/AutopilotComfortToggle/main/Mod.manifest",
@@ -213,7 +239,8 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 0,
-		"file_name": "AutopilotComfortToggle.zip"
+		"file_name": "AutopilotComfortToggle.zip",
+		"sha256": "f5a5191913c1df9d32d59725431de359d9d2c9a7db00092c0123ef7c9c8fe5e4"
 	},
 	"wt.RapidSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RapidSynchro/refs/heads/main/Mod.manifest",
@@ -221,7 +248,8 @@
 		"major": 1,
 		"minor": 2,
 		"bugfix": 1,
-		"file_name": "RapidSynchro.zip"
+		"file_name": "RapidSynchro.zip",
+		"sha256": "3fcb3cd8e9be7df74fd96ff73332194e707df4015c88b8f6d7b367cb7dc7fc81"
 	},
 	"paradoxedge.thrusters": {
 		"manifest_url": "https://raw.githubusercontent.com/Paradox-Edge/P-T_Pack/refs/heads/main/Mod.manifest",
@@ -229,7 +257,8 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 1,
-		"file_name": "P-TPack.zip"
+		"file_name": "P-TPack.zip",
+		"sha256": "877e26ee235ac79e3853a80a4830d834178c974100d692ae440f147da4d972c9"
 	},
 	"ophidium.PremiumAutopilots": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest",
@@ -237,7 +266,8 @@
 		"major": 1,
 		"minor": 2,
 		"bugfix": 1,
-		"file_name": "FullMineralNames.zip"
+		"file_name": "FullMineralNames.zip",
+		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9"
 	},
 	"hev.RockPersist": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/PersistentFracturing/refs/heads/main/Mod.manifest",
@@ -245,7 +275,8 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 1,
-		"file_name": "PersistentFracturing.zip"
+		"file_name": "PersistentFracturing.zip",
+		"sha256": "1691b5c2f15ee1a3d120065067a23ec103ffe0adaac4d18810d5dc8c36a034b6"
 	},
 	"wt.SkinSelector": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SkinSelector/refs/heads/main/Mod.manifest",
@@ -253,6 +284,7 @@
 		"major": 1,
 		"minor": 0,
 		"bugfix": 0,
-		"file_name": "SkinSelector.zip"
+		"file_name": "SkinSelector.zip",
+		"sha256": "ae6a996c53fd9d3a513af782f6fb8b4d7cb19d30379d8ec4b927f14b1e874cd2"
 	}
 }
