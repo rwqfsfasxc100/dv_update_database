@@ -3,19 +3,19 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest",
 		"major": 2,
 		"minor": 10,
-		"bugfix": 10,
+		"bugfix": 11,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip",
-		"sha256": "ef2b475293a1b58513148d3906043725d0edb50b98936a61ce14b5702acd7066"
+		"sha256": "f08e402c5b7475287778eca1b3e23c0d88c370f077aabcddc2999e2fdb1d574f"
 	},
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
 		"minor": 16,
-		"bugfix": 25,
+		"bugfix": 27,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip",
-		"sha256": "182b7563926a0361dbb148a505a3b3b4787118e39ddc7e789a9712d6f2453747"
+		"sha256": "121b79ebe035da582ebb72fa79dfbcbced83bb48ebfbbc60b1496fe56f429b7b"
 	},
 	"wt.ShipTransponder": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
