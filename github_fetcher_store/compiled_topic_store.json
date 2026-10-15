@@ -385,5 +385,18 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.RockPersist.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.RockPersist/PersistentFracturing.zip"
+	},
+	"hev.ImprobabilityDrive": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "hev.ImprobabilityDrive",
+				"MOD_NAME": "Infinite Improbability Drive",
+				"AUTHOR": "__hev",
+				"MOD_ZIP_NAME": "InfiniteImprobabilityDrive.zip"
+			},
+			"readme": "\n[center][b]Infinite Improbability Drive[/b][/center]\n\nAdds two new equipment items based off of the Infinite Improbability Drive from The Hitchhiker's Guide to the Galaxy\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.ImprobabilityDrive.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.ImprobabilityDrive/InfiniteImprobabilityDrive.zip"
 	}
 }
