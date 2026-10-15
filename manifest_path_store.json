@@ -286,5 +286,9 @@
 		"bugfix": 0,
 		"file_name": "SkinSelector.zip",
 		"sha256": "ae6a996c53fd9d3a513af782f6fb8b4d7cb19d30379d8ec4b927f14b1e874cd2"
+	},
+	"hev.ImprobabilityDrive": {
+		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/InfiniteImprobabilityDrive/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/rwqfsfasxc100/InfiniteImprobabilityDrive"
 	}
 }
