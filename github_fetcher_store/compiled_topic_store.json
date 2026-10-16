@@ -398,5 +398,19 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.ImprobabilityDrive.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.ImprobabilityDrive/InfiniteImprobabilityDrive.zip"
+	},
+	"wt.EIME_M": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "wt.EIME_M",
+				"MOD_NAME": "EIME_M",
+				"MOD_ICON": "https://raw.githubusercontent.com/1-WT-1/EIME_M/refs/heads/main/icon.png",
+				"MOD_ZIP_NAME": "EIME_M.zip",
+				"AUTHOR": "1-WT-1"
+			},
+			"readme": "\n[center][b]EIME_M[/b][/center]\n\nAdds a new Model E variant that removes all RCS mountings, and replaces them with 6 additional ZAPs, and makes all ZAP fittings unremovable.\n\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/wt.EIME_M.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/wt.EIME_M/EIME_M.zip"
 	}
 }

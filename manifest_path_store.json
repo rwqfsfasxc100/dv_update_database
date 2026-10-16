@@ -182,11 +182,11 @@
 	"wt.EIME_M": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EIME_M/refs/heads/main/Mod.manifest",
 		"major": 0,
-		"minor": 4,
-		"bugfix": 1,
+		"minor": 5,
+		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EIME_M",
 		"file_name": "EIME_M.zip",
-		"sha256": "5aa18f9812c8e26b4c5f03007b60410ea8e32d5f98d71fa3b95cebcf82dd078f"
+		"sha256": "4d1e0c7f0cfa12ed527f60ab4a7690df253ef803109fd5f0e9efa0701bb4e275"
 	},
 	"wt.TreasurePlanet-TorpedoBoat": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/Mod.manifest",
