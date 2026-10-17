@@ -295,5 +295,9 @@
 		"bugfix": 0,
 		"file_name": "InfiniteImprobabilityDrive.zip",
 		"sha256": "aa1affe047c50bd7afa921f7826035df5733dd8874d246701c3a0d769aed8250"
+	},
+	"wt.EarthTourism": {
+		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EarthTourism-Delta-V-Mod/main/Mod.manifest",
+		"github_url": "https://github.com/1-WT-1/EarthTourism-Delta-V-Mod"
 	}
 }
