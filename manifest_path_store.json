@@ -298,6 +298,11 @@
 	},
 	"wt.EarthTourism": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EarthTourism-Delta-V-Mod/main/Mod.manifest",
-		"github_url": "https://github.com/1-WT-1/EarthTourism-Delta-V-Mod"
+		"github_url": "https://github.com/1-WT-1/EarthTourism-Delta-V-Mod",
+		"major": 1,
+		"minor": 0,
+		"bugfix": 0,
+		"file_name": "EarthTourism.zip",
+		"sha256": "4556ad735542fbc77ab24775bc5e86599dad4c5fbf94b5d15ac1d501f8035022"
 	}
 }
