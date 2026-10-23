@@ -3,10 +3,10 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest",
 		"major": 2,
 		"minor": 10,
-		"bugfix": 11,
+		"bugfix": 12,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip",
-		"sha256": "f08e402c5b7475287778eca1b3e23c0d88c370f077aabcddc2999e2fdb1d574f"
+		"sha256": "f4aaccd64e5260d55d68564bf8f7264b125894d39d4a57a71c260135cdc592fb"
 	},
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
