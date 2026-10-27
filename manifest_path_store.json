@@ -21,10 +21,10 @@
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
 		"major": 0,
 		"minor": 4,
-		"bugfix": 2,
+		"bugfix": 3,
 		"github_url": "https://github.com/1-WT-1/ShipTransponder",
 		"file_name": "ShipTransponder.zip",
-		"sha256": "85ddaa3f4c5a52c9cd7dfc7de7da4cf2dcceb004ebbb9b8023c0337613c8b888"
+		"sha256": "1cf50ea915e332f93570052332a1a531053252248b26fbe31e9e169db0c4c78c"
 	},
 	"wt.MoveXenonSlider": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/MoveXenonSlider/main/Mod.manifest",
