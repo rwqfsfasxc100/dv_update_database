@@ -3,10 +3,10 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite/main/Mod.manifest",
 		"major": 2,
 		"minor": 10,
-		"bugfix": 13,
+		"bugfix": 14,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip",
-		"sha256": "707b8e572760e089bab9e7ea6cfe0f290b9656069207b6c87626cc06118ddfc0"
+		"sha256": "b1d449e3af9f9cae6af88a304f46e1b9f3701227b892aee711ff7c13bffea216"
 	},
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
@@ -274,9 +274,9 @@
 		"github_url": "https://github.com/rwqfsfasxc100/PersistentFracturing",
 		"major": 1,
 		"minor": 0,
-		"bugfix": 1,
+		"bugfix": 2,
 		"file_name": "PersistentFracturing.zip",
-		"sha256": "1691b5c2f15ee1a3d120065067a23ec103ffe0adaac4d18810d5dc8c36a034b6"
+		"sha256": "a4e4fe40dd9fe8300c3724b57600b0a01e30046fce889bb6522a780109733cac"
 	},
 	"wt.SkinSelector": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SkinSelector/refs/heads/main/Mod.manifest",
