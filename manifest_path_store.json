@@ -56,11 +56,11 @@
 	"hev.VelocityPlus": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest",
 		"major": 1,
-		"minor": 7,
-		"bugfix": 4,
+		"minor": 8,
+		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus",
 		"file_name": "VelocityPlus.zip",
-		"sha256": "5c41362ad9054c2bb70addf572d28bb8f152626090d6da3d3b581796bc78a5bf"
+		"sha256": "a6168ddfacfebc1ca932ce498bc727bb1701c30c1ce0165de0d53d5c51a8d919"
 	},
 	"wt.RGBLasers": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest",
