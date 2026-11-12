@@ -309,6 +309,6 @@ for mod_id in mod_data:
     thisVer = ver_string_format % (mod_data[mod_id].get("major",0),mod_data[mod_id].get("minor",0),mod_data[mod_id].get("bugfix",0))
     mrprc = current_zip_path + thisVer + "/" + mod_data[mod_id]["file_name"]
     mod_data[mod_id]["sha256"] = sha256sum(mrprc)
-    mod_data[mod_id]["size"] = os.path.getsize("example.txt")
+    mod_data[mod_id]["size"] = os.path.getsize(mrprc)
 mdrf = open(directory_path + "manifest_path_store.json", 'w', encoding="utf-8")
 json.dump(mod_data, mdrf, indent="\t")
