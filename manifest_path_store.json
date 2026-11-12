@@ -6,7 +6,8 @@
 		"bugfix": 14,
 		"github_url": "https://github.com/rwqfsfasxc100/Industries-Of-Enceladus-Rewrite",
 		"file_name": "IndustriesOfEnceladusRewrite.zip",
-		"sha256": "b1d449e3af9f9cae6af88a304f46e1b9f3701227b892aee711ff7c13bffea216"
+		"sha256": "b1d449e3af9f9cae6af88a304f46e1b9f3701227b892aee711ff7c13bffea216",
+		"size": 13840203
 	},
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
@@ -15,7 +16,8 @@
 		"bugfix": 8,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip",
-		"sha256": "7a61b63fc6a127c76c2ab8695396281ec63e02cb49cfa5a1decf6b38029c3ca2"
+		"sha256": "7a61b63fc6a127c76c2ab8695396281ec63e02cb49cfa5a1decf6b38029c3ca2",
+		"size": 7342759
 	},
 	"wt.ShipTransponder": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
@@ -24,7 +26,8 @@
 		"bugfix": 3,
 		"github_url": "https://github.com/1-WT-1/ShipTransponder",
 		"file_name": "ShipTransponder.zip",
-		"sha256": "1cf50ea915e332f93570052332a1a531053252248b26fbe31e9e169db0c4c78c"
+		"sha256": "1cf50ea915e332f93570052332a1a531053252248b26fbe31e9e169db0c4c78c",
+		"size": 155514
 	},
 	"wt.MoveXenonSlider": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/MoveXenonSlider/main/Mod.manifest",
@@ -33,7 +36,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/MoveXenonSlider",
 		"file_name": "MoveXenonSlider.zip",
-		"sha256": "69e694088832f83a32c95212b2ec82f0ecf89de92bc9c7d94d12ac53352e1101"
+		"sha256": "69e694088832f83a32c95212b2ec82f0ecf89de92bc9c7d94d12ac53352e1101",
+		"size": 6995
 	},
 	"hev.ModMenu2": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/ModMenu2/main/Mod.manifest",
@@ -42,7 +46,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/ModMenu2",
 		"file_name": "ModMenu2.zip",
-		"sha256": "b148b9580d6a631254b315f4f52e386708987f3b1fb0a34f4faadb2fbeb97464"
+		"sha256": "b148b9580d6a631254b315f4f52e386708987f3b1fb0a34f4faadb2fbeb97464",
+		"size": 10974
 	},
 	"jcaleb.AftermarketHuds": {
 		"manifest_url": "https://raw.githubusercontent.com/JCalebBR/AftermarketHuds/refs/heads/main/Mod.manifest",
@@ -51,7 +56,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/JCalebBR/AftermarketHuds",
 		"file_name": "AftermarketHuds.zip",
-		"sha256": "833b4d55ab08561942fe4b38e4e30462646341b4275709cc801c4b7fbafa38cb"
+		"sha256": "833b4d55ab08561942fe4b38e4e30462646341b4275709cc801c4b7fbafa38cb",
+		"size": 4162934
 	},
 	"hev.VelocityPlus": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest",
@@ -60,7 +66,8 @@
 		"bugfix": 2,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus",
 		"file_name": "VelocityPlus.zip",
-		"sha256": "ccf7bd961898ac7c3035f2ea6d61f7c01488aeabe2bc3c813ad5df473da3379c"
+		"sha256": "ccf7bd961898ac7c3035f2ea6d61f7c01488aeabe2bc3c813ad5df473da3379c",
+		"size": 244291
 	},
 	"wt.RGBLasers": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest",
@@ -69,7 +76,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/RGB-Lasers",
 		"file_name": "RGB-Lasers.zip",
-		"sha256": "9f868b4761ff7dce404f2cab86cb4a571ed5346469a11aac2536813fab2aa2f3"
+		"sha256": "9f868b4761ff7dce404f2cab86cb4a571ed5346469a11aac2536813fab2aa2f3",
+		"size": 378729
 	},
 	"wt.funnel_titan": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/FunnelTitan/main/Mod.manifest",
@@ -78,7 +86,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/FunnelTitan",
 		"file_name": "FunnelTitan.zip",
-		"sha256": "c9e19ca02206e7ce2b0274eefbe8b22b06c43a9e5453dcf9a1ddd8003288c4f2"
+		"sha256": "c9e19ca02206e7ce2b0274eefbe8b22b06c43a9e5453dcf9a1ddd8003288c4f2",
+		"size": 39292652
 	},
 	"hev.FullMineralNames": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest",
@@ -87,7 +96,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/FullMineralNames",
 		"file_name": "FullMineralNames.zip",
-		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9"
+		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9",
+		"size": 64000
 	},
 	"wt.MoarRadars": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/Moar-RADARs/refs/heads/main/Mod.manifest",
@@ -96,7 +106,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/1-WT-1/Moar-RADARs-Delta-V-Mod",
 		"file_name": "MoarRADARs.zip",
-		"sha256": "e80af1148023b363c48ba5c15a45100365659fde6d432fb1f008cd58ea3085a6"
+		"sha256": "e80af1148023b363c48ba5c15a45100365659fde6d432fb1f008cd58ea3085a6",
+		"size": 16468
 	},
 	"wt.SandevistanAdrenaline": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SandevistanAdrenaline/main/Mod.manifest",
@@ -105,7 +116,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/SandevistanAdrenaline",
 		"file_name": "SandevistanAdrenaline.zip",
-		"sha256": "ff0d2516e8918ebe6bcbfc3defffef6a6c48a3d8c31c73f63bad1a0978865b6b"
+		"sha256": "ff0d2516e8918ebe6bcbfc3defffef6a6c48a3d8c31c73f63bad1a0978865b6b",
+		"size": 7687
 	},
 	"hev.DerelictDelights": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Abandoned-Technologies/1.0.0/Mod.manifest",
@@ -114,7 +126,8 @@
 		"bugfix": 1,
 		"github_url": "https://github.com/rwqfsfasxc100/Derelict-Delights",
 		"file_name": "AbandonedTechnologies.zip",
-		"sha256": "16f236f69dbc4f9cdce2c3b01c024f908dcb97da91d7c75311cc7c462c4ffe00"
+		"sha256": "16f236f69dbc4f9cdce2c3b01c024f908dcb97da91d7c75311cc7c462c4ffe00",
+		"size": 469948
 	},
 	"hev.MoreMinerals": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/Hevs-More-Minerals/main/Mod.manifest",
@@ -123,7 +136,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/Hevs-More-Minerals",
 		"file_name": "Hevs-More-Minerals.zip",
-		"sha256": "ab4d656245ffb4560541b6780198288ee7bac0a3c038fec94ee4eae614bec002"
+		"sha256": "ab4d656245ffb4560541b6780198288ee7bac0a3c038fec94ee4eae614bec002",
+		"size": 90755
 	},
 	"wt.mimic_gun": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/MimicGun/main/Mod.manifest",
@@ -132,7 +146,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/MimicGun",
 		"file_name": "MimicGun.zip",
-		"sha256": "786815f4d7b7fd36f76a994e4fef137187dc9a7fb57ed536c97743b32d3866ce"
+		"sha256": "786815f4d7b7fd36f76a994e4fef137187dc9a7fb57ed536c97743b32d3866ce",
+		"size": 170402
 	},
 	"hev.FoxyJumpscare": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second/main/Mod.manifest",
@@ -141,7 +156,8 @@
 		"bugfix": 4,
 		"github_url": "https://github.com/rwqfsfasxc100/1-in-10-000-chance-for-withered-foxy-jumpscare-every-second",
 		"file_name": "1-in-10-000-chance-for-withered-foxy-jumpscare-every-second.zip",
-		"sha256": "692ee4631199ecc83d311b1358aa897a988cfe94356dd6babcfd75cd55bf974c"
+		"sha256": "692ee4631199ecc83d311b1358aa897a988cfe94356dd6babcfd75cd55bf974c",
+		"size": 7491106
 	},
 	"wt.toggle_drone": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ToggleDrone/main/Mod.manifest",
@@ -150,7 +166,8 @@
 		"bugfix": 4,
 		"github_url": "https://github.com/1-WT-1/ToggleDrone",
 		"file_name": "ToggleDrone.zip",
-		"sha256": "bd33b94c84d8bedc6e4becec856ce76cfde5d49ed690659a6b72173ba750dcdc"
+		"sha256": "bd33b94c84d8bedc6e4becec856ce76cfde5d49ed690659a6b72173ba750dcdc",
+		"size": 12596
 	},
 	"wt.GravityTools": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/GravityTools/refs/heads/main/Mod.manifest",
@@ -159,7 +176,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/GravityTools",
 		"file_name": "GravityTools.zip",
-		"sha256": "8db9bb09f44868781099a5d1f6ec1505ee6c444b1eb4af065f151c2c228251cb"
+		"sha256": "8db9bb09f44868781099a5d1f6ec1505ee6c444b1eb4af065f151c2c228251cb",
+		"size": 169006
 	},
 	"wt.UwUify": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/UwUify/main/Mod.manifest",
@@ -168,7 +186,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/UwUify",
 		"file_name": "UwUify.zip",
-		"sha256": "8cba79a20ed686de50dfdadc365ca1c530aadbca955f64e0f16097a89675fdaf"
+		"sha256": "8cba79a20ed686de50dfdadc365ca1c530aadbca955f64e0f16097a89675fdaf",
+		"size": 118223
 	},
 	"wt.EMPSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EMPSynchro/refs/heads/main/Mod.manifest",
@@ -177,7 +196,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EMPSynchro",
 		"file_name": "EMPSynchro.zip",
-		"sha256": "e7db78b391a7e9ece7e01bf181acb6c5f0cc4c1fdae9b2cc20e583b3deaf144a"
+		"sha256": "e7db78b391a7e9ece7e01bf181acb6c5f0cc4c1fdae9b2cc20e583b3deaf144a",
+		"size": 369500
 	},
 	"wt.EIME_M": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EIME_M/refs/heads/main/Mod.manifest",
@@ -186,7 +206,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/EIME_M",
 		"file_name": "EIME_M.zip",
-		"sha256": "4d1e0c7f0cfa12ed527f60ab4a7690df253ef803109fd5f0e9efa0701bb4e275"
+		"sha256": "4d1e0c7f0cfa12ed527f60ab4a7690df253ef803109fd5f0e9efa0701bb4e275",
+		"size": 409585
 	},
 	"wt.TreasurePlanet-TorpedoBoat": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/TreasurePlanet-TorpedoBoat/refs/heads/main/Mod.manifest",
@@ -195,7 +216,8 @@
 		"bugfix": 0,
 		"github_url": "https://github.com/1-WT-1/TreasurePlanet-TorpedoBoat",
 		"file_name": "TreasurePlanet-TorpedoBoat.zip",
-		"sha256": "fbf667a4707f6ab23324f70773f09e892e5411c5f64ca8c6712107202f069c51"
+		"sha256": "fbf667a4707f6ab23324f70773f09e892e5411c5f64ca8c6712107202f069c51",
+		"size": 20513014
 	},
 	"hev.LIBRARY.font_pack_1": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Language-Font-Pack-1/refs/heads/main/Mod.manifest",
@@ -204,7 +226,8 @@
 		"minor": 1,
 		"bugfix": 1,
 		"file_name": "HevLib.Language.Font.Pack.1.zip",
-		"sha256": "cca1455c7b105367621b9f9dded692056823b0a44b19e51cd34d16e99b749340"
+		"sha256": "cca1455c7b105367621b9f9dded692056823b0a44b19e51cd34d16e99b749340",
+		"size": 23975472
 	},
 	"hev.LIBRARY.discord_rpc": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Discord-RPC/refs/heads/main/mod.manifest",
@@ -213,7 +236,8 @@
 		"minor": 0,
 		"bugfix": 1,
 		"file_name": "HevLib.Discord.RPC.zip",
-		"sha256": "5e0bff519114a4bac6233e55a770c705069146bdb3f761c2f4920d2b5c0f7630"
+		"sha256": "5e0bff519114a4bac6233e55a770c705069146bdb3f761c2f4920d2b5c0f7630",
+		"size": 7541587
 	},
 	"wt.DVHudHueMod": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/DVHudHueMod/main/Mod.manifest",
@@ -222,7 +246,8 @@
 		"minor": 2,
 		"bugfix": 0,
 		"file_name": "DVHudHueMod.zip",
-		"sha256": "cf34e10054fe99e9c6945da5d985d4f7c34294f56913274014b2a7f9fbc88e5d"
+		"sha256": "cf34e10054fe99e9c6945da5d985d4f7c34294f56913274014b2a7f9fbc88e5d",
+		"size": 18033
 	},
 	"hev.DifficultyTweaker": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/DifficultyTweaker/refs/heads/main/Mod.manifest",
@@ -231,7 +256,8 @@
 		"minor": 0,
 		"bugfix": 1,
 		"file_name": "DifficultyTweaker.zip",
-		"sha256": "d33dcd52a3091d7373c0f7f4c615f1604c73b7479b8276f7c2f425e400315e93"
+		"sha256": "d33dcd52a3091d7373c0f7f4c615f1604c73b7479b8276f7c2f425e400315e93",
+		"size": 27003
 	},
 	"wt.AutopilotComfortToggle": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/AutopilotComfortToggle/main/Mod.manifest",
@@ -240,7 +266,8 @@
 		"minor": 0,
 		"bugfix": 0,
 		"file_name": "AutopilotComfortToggle.zip",
-		"sha256": "f5a5191913c1df9d32d59725431de359d9d2c9a7db00092c0123ef7c9c8fe5e4"
+		"sha256": "f5a5191913c1df9d32d59725431de359d9d2c9a7db00092c0123ef7c9c8fe5e4",
+		"size": 7684
 	},
 	"wt.RapidSynchro": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RapidSynchro/refs/heads/main/Mod.manifest",
@@ -249,7 +276,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"file_name": "RapidSynchro.zip",
-		"sha256": "3fcb3cd8e9be7df74fd96ff73332194e707df4015c88b8f6d7b367cb7dc7fc81"
+		"sha256": "3fcb3cd8e9be7df74fd96ff73332194e707df4015c88b8f6d7b367cb7dc7fc81",
+		"size": 13885
 	},
 	"paradoxedge.thrusters": {
 		"manifest_url": "https://raw.githubusercontent.com/Paradox-Edge/P-T_Pack/refs/heads/main/Mod.manifest",
@@ -258,7 +286,8 @@
 		"minor": 0,
 		"bugfix": 1,
 		"file_name": "P-TPack.zip",
-		"sha256": "877e26ee235ac79e3853a80a4830d834178c974100d692ae440f147da4d972c9"
+		"sha256": "877e26ee235ac79e3853a80a4830d834178c974100d692ae440f147da4d972c9",
+		"size": 18848
 	},
 	"ophidium.PremiumAutopilots": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/FullMineralNames/refs/heads/main/Mod.manifest",
@@ -267,7 +296,8 @@
 		"minor": 2,
 		"bugfix": 1,
 		"file_name": "FullMineralNames.zip",
-		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9"
+		"sha256": "833fa426901161b31801545531fab5369c73cf7fba66994fefb20ea1868568e9",
+		"size": 64000
 	},
 	"hev.RockPersist": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/PersistentFracturing/refs/heads/main/Mod.manifest",
@@ -276,7 +306,8 @@
 		"minor": 0,
 		"bugfix": 2,
 		"file_name": "PersistentFracturing.zip",
-		"sha256": "a4e4fe40dd9fe8300c3724b57600b0a01e30046fce889bb6522a780109733cac"
+		"sha256": "a4e4fe40dd9fe8300c3724b57600b0a01e30046fce889bb6522a780109733cac",
+		"size": 7528
 	},
 	"wt.SkinSelector": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/SkinSelector/refs/heads/main/Mod.manifest",
@@ -285,7 +316,8 @@
 		"minor": 0,
 		"bugfix": 0,
 		"file_name": "SkinSelector.zip",
-		"sha256": "ae6a996c53fd9d3a513af782f6fb8b4d7cb19d30379d8ec4b927f14b1e874cd2"
+		"sha256": "ae6a996c53fd9d3a513af782f6fb8b4d7cb19d30379d8ec4b927f14b1e874cd2",
+		"size": 293537
 	},
 	"hev.ImprobabilityDrive": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/InfiniteImprobabilityDrive/refs/heads/main/Mod.manifest",
@@ -294,7 +326,8 @@
 		"minor": 0,
 		"bugfix": 1,
 		"file_name": "InfiniteImprobabilityDrive.zip",
-		"sha256": "d054e29db447cc944b461c61a8642dd61b6a117124980aa73087c087f670b419"
+		"sha256": "d054e29db447cc944b461c61a8642dd61b6a117124980aa73087c087f670b419",
+		"size": 9038
 	},
 	"wt.EarthTourism": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/EarthTourism-Delta-V-Mod/main/Mod.manifest",
@@ -303,6 +336,7 @@
 		"minor": 0,
 		"bugfix": 0,
 		"file_name": "EarthTourism.zip",
-		"sha256": "4556ad735542fbc77ab24775bc5e86599dad4c5fbf94b5d15ac1d501f8035022"
+		"sha256": "4556ad735542fbc77ab24775bc5e86599dad4c5fbf94b5d15ac1d501f8035022",
+		"size": 67426
 	}
 }
