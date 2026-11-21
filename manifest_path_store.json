@@ -63,11 +63,11 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/VelocityPlus/main/Mod.manifest",
 		"major": 1,
 		"minor": 8,
-		"bugfix": 3,
+		"bugfix": 4,
 		"github_url": "https://github.com/rwqfsfasxc100/VelocityPlus",
 		"file_name": "VelocityPlus.zip",
-		"sha256": "99a594541220cd2ac4dae1b21e1356127b3de8f88bcaf3a359d6753c02838fd7",
-		"size": 247176
+		"sha256": "6d8b1f4a81513fbb436253b80ba45fe47c39127f5018f67da3cd0b0fb48ab5ef",
+		"size": 249423
 	},
 	"wt.RGBLasers": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest",
