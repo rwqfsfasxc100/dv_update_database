@@ -12,12 +12,12 @@
 	"hev.LIBRARY": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
-		"minor": 17,
-		"bugfix": 8,
+		"minor": 18,
+		"bugfix": 0,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip",
-		"sha256": "7a61b63fc6a127c76c2ab8695396281ec63e02cb49cfa5a1decf6b38029c3ca2",
-		"size": 7342759
+		"sha256": "c8de3c9cb57fdfd448d70b2d6c704256a4bdaaac9f8bd9ef6278eb4fd4d1ef58",
+		"size": 7427394
 	},
 	"wt.ShipTransponder": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
