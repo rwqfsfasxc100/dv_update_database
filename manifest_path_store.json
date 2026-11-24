@@ -13,11 +13,11 @@
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib/main/Mod.manifest",
 		"major": 1,
 		"minor": 18,
-		"bugfix": 1,
+		"bugfix": 2,
 		"github_url": "https://github.com/rwqfsfasxc100/HevLib",
 		"file_name": "HevLib.zip",
-		"sha256": "315ce0acd8f7c15a52f835468926310b834eab73ecfcf2d87887a66d741df128",
-		"size": 7427459
+		"sha256": "481617611b5e0638d764e4a3ef9d73293c743ceeae2b5500be05b1e6a0ef8d67",
+		"size": 7428912
 	},
 	"wt.ShipTransponder": {
 		"manifest_url": "https://raw.githubusercontent.com/1-WT-1/ShipTransponder/refs/heads/main/Mod.manifest",
