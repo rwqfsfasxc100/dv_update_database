@@ -338,5 +338,9 @@
 		"file_name": "EarthTourism.zip",
 		"sha256": "4556ad735542fbc77ab24775bc5e86599dad4c5fbf94b5d15ac1d501f8035022",
 		"size": 67426
+	},
+	"hev.FastSensors": {
+		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/EfficientSensorDisplays/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/rwqfsfasxc100/EfficientSensorDisplays"
 	}
 }
