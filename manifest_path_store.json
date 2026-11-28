@@ -351,6 +351,12 @@
 	},
 	"hev.LIBRARY.AchievementIcons": {
 		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Achievement-Icons/refs/heads/main/Mod.manifest",
-		"github_url": "https://github.com/rwqfsfasxc100/HevLib-Achievement-Icons"
+		"github_url": "https://github.com/rwqfsfasxc100/HevLib-Achievement-Icons",
+		"major": 1,
+		"minor": 0,
+		"bugfix": 0,
+		"file_name": "HevLib.Achievement.Icons.zip",
+		"sha256": "a1d005833f4fc6c181599e4996c3888f8ad20d0f6700b31be68dccadee0f5306",
+		"size": 11283887
 	}
 }
