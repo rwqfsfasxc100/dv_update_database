@@ -348,5 +348,9 @@
 		"file_name": "EfficientSensorDisplays.zip",
 		"sha256": "4dcfbb505c44b3ab9e0b74a6e264874d97f56f937cf12bcf131532227653a702",
 		"size": 55995
+	},
+	"hev.LIBRARY.AchievementIcons": {
+		"manifest_url": "https://raw.githubusercontent.com/rwqfsfasxc100/HevLib-Achievement-Icons/refs/heads/main/Mod.manifest",
+		"github_url": "https://github.com/rwqfsfasxc100/HevLib-Achievement-Icons"
 	}
 }
