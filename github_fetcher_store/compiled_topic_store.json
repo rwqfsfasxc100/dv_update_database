@@ -426,5 +426,17 @@
 		},
 		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.FastSensors.png",
 		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.FastSensors/EfficientSensorDisplays.zip"
+	},
+	"hev.LIBRARY.AchievementIcons": {
+		"formatted": {
+			"header_data": {
+				"MOD_ID": "hev.LIBRARY.AchievementIcons",
+				"MOD_NAME": "HevLib Achievement Icons",
+				"AUTHOR": "__hev"
+			},
+			"readme": "\n[center][b]HevLib Achievement Icons[/b][/center]\n\nLibrary extension for HevLib that provides the game's achievement icons for all systems that require use of them.\n"
+		},
+		"icon_path": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/icons/hev.LIBRARY.AchievementIcons.png",
+		"zip_filename": "https://raw.githubusercontent.com/rwqfsfasxc100/dv_update_database/refs/heads/main/github_fetcher_store/zips/hev.LIBRARY.AchievementIcons/HevLib.Achievement.Icons.zip"
 	}
 }
